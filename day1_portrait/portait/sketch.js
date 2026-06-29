@@ -27,6 +27,10 @@ function draw() {
     let noseSize = random(20,50);
 
     let eyebrowSize = random(0,100);
+    
+    fill('black');
+    arc(400, 550, 650, 900, PI, TWO_PI, CHORD);
+
 
     fill('white');
     ellipse(faceCenter, faceCenter, 500, 600); //face 
@@ -56,6 +60,7 @@ function draw() {
     point(faceCenter + 125, faceCenter);
     point(faceCenter + 180, faceCenter - 50);
 
-    
+    fill('black');
+    arc(400, 220, 350, 240, PI, TWO_PI, CHORD);
 
 }
