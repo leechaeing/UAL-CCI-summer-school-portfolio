@@ -13,7 +13,7 @@ let spacing = canvasHeight / count;
 let offset = spacing * 0.5
 
 function setup() {
-    createCanvas(800, 800);
+    createCanvas(825, 800);
     //noLoop();
     frameRate(2);
 }
