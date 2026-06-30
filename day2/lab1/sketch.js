@@ -32,7 +32,7 @@ function dust (x, y, s) {
   translate (x,y);
   scale (s);
   fill(0);
-  circle (0, 0, 100); // dust particle
+  star (0, 0, 50, 60, 100, 'black', 1); // dust particle
   fill(255);
   ellipse (20, 0, 40, 45); // left eye
   ellipse (-20, 0, 40, 45); // right eye
