@@ -1,25 +1,13 @@
-# demo
+# Title: Practice Repository for Git
 
-## Getting Started
+## This is the second title
 
-Open `index.html` in your web browser and start editing `sketch.js`.
+Hello, this is a test. 
 
-## Running Locally
+Things I want to do: 
 
-For projects with media files, use a local server:
+- Sleep 
+- Go home 
+- Eat lunch
 
-```bash
-# Using Python
-python -m http.server 8000
-
-# Using Node.js
-npx http-server
-
-# Using VS Code Live Server extension
-# Right-click index.html -> "Open with Live Server"
-```
-
-## Resources
-
-- [p5.js 2.0](https://beta.p5js.org/)
-- [p5.js Reference](https://p5js.org/reference/)
+Another changes 
