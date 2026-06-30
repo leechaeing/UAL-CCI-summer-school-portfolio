@@ -3,10 +3,18 @@ function setup() {
 }
 
 function draw() {
-    background(220);
-    owl(200, 300, 120, 1);
-    owl(400, 300, 120, 1);
-    owl(600, 300, 120, 1);
+    background(0);
+    translate(0, -25);
+    owl(400, 250, 120, 1);
+    owl(500, 200, 200, 1);
+    owl(300, 200, 50, 1);
+    owl(600, 250, 70, 1);
+    owl(200, 250, 150, 1);
+    owl(630, 380, 100, 1);
+    owl(170, 380, 200, 1);
+    owl(510, 500, 90, 1);
+    owl(290, 500, 250, 1);
+    owl(400, 580, 0, 1);
 }
 // based on Lauren Lee McCarthy
 
