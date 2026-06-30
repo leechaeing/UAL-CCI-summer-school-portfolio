@@ -14,7 +14,8 @@ let offset = spacing * 0.5
 
 function setup() {
     createCanvas(800, 800);
-    noLoop();
+    //noLoop();
+    frameRate(2);
 }
 
 function draw() {
