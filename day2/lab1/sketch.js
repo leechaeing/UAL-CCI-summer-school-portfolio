@@ -14,8 +14,14 @@ function draw() {
     dust(220, 150, 0.7);
     star(340, 150, 20, 40, 4, 'white', 0.8);
     dust(460, 150, 0.7);
-    star(580, 150, 20, 40, 8, 'yellow', 0.8);
+    star(580, 150, 20, 40, 8, 'lightgreen', 0.8);
     dust(700, 150, 0.7);
+    star(100, 450, 20, 40, 9, 'lightblue', 0.8);
+    dust(220, 450, 0.7);
+    star(340, 450, 20, 40, 6, 'lightgreen', 0.8);
+    dust(460, 450, 0.7);
+    star(580, 450, 20, 40, 4, 'yellow', 0.8);
+    dust(700, 450, 0.7);
 
 }
 // based on Lauren Lee McCarthy
