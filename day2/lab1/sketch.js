@@ -4,10 +4,19 @@ function setup() {
 
 function draw() {
     background(220);
-    dust(200, 300, 1);
-    star(320, 300, 30, 50, 6, 'yellow', 1);
-    dust(440, 300, 1);
-    star(560, 300, 30, 50, 7, 'pink', 1);
+    dust(100, 300, 1);
+    star(220, 300, 30, 50, 6, 'yellow', 1);
+    dust(340, 300, 1);
+    star(460, 300, 30, 50, 7, 'pink', 1);
+    dust(580, 300, 1);
+    star(700, 300, 30, 50, 5, 'lightblue', 1);
+    star(100, 150, 20, 40, 5, 'pink', 0.8);
+    dust(220, 150, 0.7);
+    star(340, 150, 20, 40, 4, 'white', 0.8);
+    dust(460, 150, 0.7);
+    star(580, 150, 20, 40, 8, 'yellow', 0.8);
+    dust(700, 150, 0.7);
+
 }
 // based on Lauren Lee McCarthy
 
