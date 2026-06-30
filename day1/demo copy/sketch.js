@@ -36,17 +36,5 @@ function setup() {
 
 function draw() {
     background(0);
-
-    fill('blue'); // fill color before drawing the circle 
-    //stroke('green'); //needed for next stroke and strokeWeight to not affect this circle
-    //strokeWeight(10);
     circle(200, 200, 100);
-
-    fill('red');
-    stroke('yellow'); 
-    strokeWeight(5);
-    circle(200, 200, 50);
-
-    noLoop(); // stops the draw function from looping, or helps code run  or smoother
-faster
 }
