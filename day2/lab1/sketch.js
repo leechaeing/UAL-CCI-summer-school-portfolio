@@ -3,7 +3,7 @@ function setup() {
 }
 
 function draw() {
-    background(220);
+    background(80);
     dust(100, 300, 1);
     star(220, 300, 30, 50, 6, 'yellow', 1);
     dust(340, 300, 1);
