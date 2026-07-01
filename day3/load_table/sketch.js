@@ -2,6 +2,7 @@
 
 let table;
 
+//async and await replaced preload for p5 2
 async function setup() {
   // Create a 200x200 canvas
   createCanvas(200, 200);
