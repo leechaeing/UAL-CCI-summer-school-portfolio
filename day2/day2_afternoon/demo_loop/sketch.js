@@ -8,7 +8,7 @@ let cities = [
 function setup() {
     createCanvas(400, 400);
 
-    for(let i = 0; i<cities.length; i++){ //i++: every time loop runs, i increases by 1
+    for(let i = 0; i<cities.length; i++){ //i++: every time loop runs, i increases by 1 so it's the same as i = i+1
         let currentCity = cities[i];
         console.log(currentCity);
     }
