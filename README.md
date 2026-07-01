@@ -1,7 +1,7 @@
 # UAL Summer Study Abroad: Creative Computing Daily Reflections by Amy (Eunjong) Lee 
 
 ## Day 1 (2026/06/29)
-![Self Portrait] (/Users/eunjonglee/Desktop/UAL-CCI-summer-school-portfolio/assets/1.png "One")
+![Self Portrait] (1.png)
 
 ## Day 2 (2026/06/30)
 
