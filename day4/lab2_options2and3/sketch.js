@@ -13,10 +13,13 @@ function setup() {
 }
 
 function draw() {
-  background(51);
+  background(250);
 
-  image(capture, 0, 0, 600, 500);
-  circle(mouseX, mouseY, 50);
+  push();
+  translate(width, 0);
+  scale(-1, 1);
+  image(capture, 100, 150, 600, 500);
+  pop();
 
   //code reference: https://beta.p5js.org/reference/p5/filter/
     filter(BLUR, 5);
