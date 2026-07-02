@@ -1,11 +1,18 @@
 # UAL Summer Study Abroad: Creative Computing Daily Reflections by Amy (Eunjong) Lee 
 
 ## Day 1 (2026/06/29)
-<img width="1728" height="1035" alt="Image" src="https://github.com/user-attachments/assets/685df454-e0db-45b6-b0d1-09ad0d34aa17" />
+<img width="797" height="798" alt="Image" src="https://github.com/user-attachments/assets/5c87e25f-c656-42fd-8934-a64c0eadf0a9" />
+<img width="798" height="799" alt="Image" src="https://github.com/user-attachments/assets/f7c17383-9dcf-49dd-aa24-50bc23195a6e" />
+<img width="798" height="798" alt="Image" src="https://github.com/user-attachments/assets/4958ca23-71c4-4ad9-8504-0ff8c1a83327" />
 
 ## Day 2 (2026/06/30)
+<img width="824" height="799" alt="Image" src="https://github.com/user-attachments/assets/fd0f12d9-2ed2-478e-8a77-84b936f816af" />
+<img width="823" height="798" alt="Image" src="https://github.com/user-attachments/assets/75a22e2a-ad09-4a24-856a-455763a43439" />
+<img width="797" height="598" alt="Image" src="https://github.com/user-attachments/assets/b7dfe3b2-5744-401d-a3d6-561bd2fb3ad4" />
+<img width="797" height="597" alt="Image" src="https://github.com/user-attachments/assets/c943f2d4-7d1a-467b-b9af-c760a01da6e4" />
 
 ## Day 3 (2026/07/01)
+<img width="802" height="798" alt="Image" src="https://github.com/user-attachments/assets/f124cdef-c8b2-46b9-82b2-d7ea7296312a" />
 
 ## Day 4 (2026/07/02)
 
