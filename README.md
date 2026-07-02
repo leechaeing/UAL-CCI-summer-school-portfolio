@@ -5,11 +5,11 @@
 
 
 ## Day 2 (2026/06/30)
-<img height="270" alt="" src="./assets/2.png" /> <img height="270" alt="" src="./assets/2_2.png" />
+<img height="350" alt="" src="./assets/2.png" /> <img height="350" alt="" src="./assets/2_2.png" />
 
-<img height="270" alt="" src="./assets/2_7.png" /> <img height="270" alt="" src="./assets/2_8.png" />
+<img height="350" alt="" src="./assets/2_7.png" /> <img height="350" alt="" src="./assets/2_8.png" />
 
-<img height="270" alt="" src="./assets/2_3.png" /> <img height="270" alt="" src="./assets/2_5.png" /> <img height="270" alt="" src="./assets/2_6.png" />
+<img height="250" alt="" src="./assets/2_3.png" /> <img height="250" alt="" src="./assets/2_5.png" /> <img height="250" alt="" src="./assets/2_6.png" />
 
 <img height="500" alt="" src="./assets/2_4.png" />
 
