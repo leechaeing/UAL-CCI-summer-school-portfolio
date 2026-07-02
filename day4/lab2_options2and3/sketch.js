@@ -1,5 +1,19 @@
-// Set the video capture as a global variable.
 let capture;
+
+let frame1;
+let frame2; 
+let frame3; 
+
+let sticker1; 
+let sticker2; 
+let sticker3; 
+let sticker4; 
+let sticker5; 
+let sticker6; 
+let sticker7; 
+let sticker8; 
+let sticker9; 
+let sticker10; 
 
 function setup() {
   describe('Video capture from the device webcam.');
