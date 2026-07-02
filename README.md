@@ -9,14 +9,13 @@
 
 <img height="400" alt="" src="./assets/2_7.png" /> <img height="400" alt="" src="./assets/2_8.png" />
 
-<img height="200" alt="" src="./assets/2_3.png" /> <img height="200" alt="" src="./assets/2_5.png" /> <img height="200" alt="" src="./assets/2_6.png" />
+<img height="205" alt="" src="./assets/2_3.png" /> <img height="205" alt="" src="./assets/2_5.png" /> <img height="205" alt="" src="./assets/2_6.png" />
 
-<img height="500" alt="" src="./assets/2_4.png" />
+<img height="300" alt="" src="./assets/2_4.png" />
 
 
 ## Day 3 (2026/07/01)
-<img height="798" alt="Image" src="./assets/3.png" />
-<img height="800" alt="" src="./assets/3_2.png" />
+<img height="400" alt="Image" src="./assets/3.png" /> <img height="400" alt="" src="./assets/3_2.png" />
 
 ## Day 4 (2026/07/02)
 
