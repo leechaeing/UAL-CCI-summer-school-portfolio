@@ -23,7 +23,7 @@ function draw() {
 
     for(let i = 0; i<count; i++) {
         for(let j = 0; j<count; j++){
-            dust(
+            drawDust(
                 i*spacing + offset, 
                 j*spacing + offset, 
                 0.2,
@@ -42,9 +42,12 @@ function draw() {
 }
 
 // x location, y location, radius, scale)
-function dust (x, y, s) {
-  push ();  
+
+function drawDust (x, y, s) {
+    push ();  
   translate (x,y);
+  let rotation = random([0, 90, 180, 270]);
+  rotate(radians(rotation));
   scale (s);
   fill(0);
   star (0, 0, 50, 60, 100, 'black', 1); // dust particle
