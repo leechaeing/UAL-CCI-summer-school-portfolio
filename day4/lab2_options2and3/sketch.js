@@ -22,5 +22,5 @@ function draw() {
   pop();
 
   //code reference: https://beta.p5js.org/reference/p5/filter/
-    filter(BLUR, 5);
+    filter(BLUR, 1);
 }

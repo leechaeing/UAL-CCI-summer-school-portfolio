@@ -1,7 +1,9 @@
 # UAL Summer Study Abroad: Creative Computing Daily Reflections by Amy (Eunjong) Lee 
 
 ## Day 1 (2026/06/29)
-<img width="797" height="798" alt="Image" src="https://github.com/user-attachments/assets/5c87e25f-c656-42fd-8934-a64c0eadf0a9" />
+<img width="797" alt="Image" src="./assets/1.png" />
+![](./assets/1.png)
+![](./assets/1_2.png)
 <img width="798" height="799" alt="Image" src="https://github.com/user-attachments/assets/f7c17383-9dcf-49dd-aa24-50bc23195a6e" />
 <img width="798" height="798" alt="Image" src="https://github.com/user-attachments/assets/4958ca23-71c4-4ad9-8504-0ff8c1a83327" />
 
