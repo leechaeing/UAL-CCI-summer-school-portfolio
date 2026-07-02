@@ -24,6 +24,9 @@ function draw() {
 
   // Draw the resulting video capture on the canvas
   // with the invert filter applied.
-  image(capture, 0, 0, 360, 400);
-  //filter(INVERT);
+  image(capture, 0, 0, 400, 400);
+  circle(mouseX, mouseY, 50);
+
+  //code reference: https://beta.p5js.org/reference/p5/filter/
+    filter(BLUR, 5);
 }
