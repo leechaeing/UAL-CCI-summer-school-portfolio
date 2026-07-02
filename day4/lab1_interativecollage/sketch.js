@@ -16,7 +16,11 @@ async function setup() {
     img6 = await loadImage('/day4/assets/IMG_1207.JPG');
     img7 = await loadImage('/day4/assets/IMG_1213.JPG');
     createCanvas(800, 800);
-    bubble = new Bubble();
+    //bubble = new Bubble();
+}
+
+function draw() {
+    
 }
 
 
