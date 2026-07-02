@@ -1,5 +1,7 @@
 let button;
 
+let counter = 0;
+
 function setup() {
   createCanvas(100, 100);
 
@@ -11,7 +13,7 @@ function setup() {
   button.position(300, 500);
 
   // Call randomColor() when the button is pressed.
-  button.mousePressed(randomColor);
+  button.mousePressed(updateColor);
 
   describe('A red square with a button that says "click me" beneath it. The square changes color when the button is clicked.');
 }
@@ -23,7 +25,14 @@ function draw() {
 }
 
 // Set the button's value to a random color.
-function randomColor() {
-  let c = random(['red', 'green', 'blue', 'yellow']);
+function updateColor() {
+    counter += 1; 
+    let colorOptions = ['red', 'green', 'blue', 'yellow'];
+
+    let colorIndex = counter % colorOptions.length;
+    let c = colorOptions[colorIndex];
+
+    //let c = random(colorOptions);
+     
   button.value(c);
 }
