@@ -5,18 +5,38 @@ let img4;
 let img5;
 let img6; 
 let img7;
-let bubble; 
+let img8; 
+let img9;
+let img10;
+let img11;
+let img12;
+let img13; 
+let img14; 
+let img15; 
+let water1; 
+let water2;
+let water3;
 
 async function setup() {
-    img1 = await loadImage('/day4/assets/IMG_1165.JPG');
-    img2 = await loadImage('/day4/assets/IMG_1167.JPG');
-    img3 = await loadImage('/day4/assets/IMG_1171.JPG');
-    img4 = await loadImage('/day4/assets/IMG_1178.JPG');
-    img5 = await loadImage('/day4/assets/IMG_1206.JPG');
-    img6 = await loadImage('/day4/assets/IMG_1207.JPG');
-    img7 = await loadImage('/day4/assets/IMG_1213.JPG');
+    img1 = await loadImage('./day4/assets/fish1.png');
+    img2 = await loadImage('./day4/assets/fish2.png');
+    img3 = await loadImage('./day4/assets/fish3.png');
+    img4 = await loadImage('./day4/assets/fish4.png');
+    img5 = await loadImage('./day4/assets/fish5.png');
+    img6 = await loadImage('./day4/assets/fish6.png');
+    img7 = await loadImage('./day4/assets/fish7.png');
+    img8 = await loadImage('./day4/assets/fish8.png');
+    img9 = await loadImage('./day4/assets/fish9.png');
+    img10 = await loadImage('./day4/assets/fish10.png');
+    img11 = await loadImage('./day4/assets/fish11.png');
+    img12 = await loadImage('./day4/assets/fish12.png');
+    img13 = await loadImage('./day4/assets/fish13.png');
+    img14 = await loadImage('./day4/assets/fish14.png');
+    img15 = await loadImage('./day4/assets/fish15.png');
+    water1 = await loadImage('./day4/assets/water1.png');
+    water2 = await loadImage('./day4/assets/water2.png');
+    water3 = await loadImage('./day4/assets/water3.png');
     createCanvas(800, 800);
-    //bubble = new Bubble();
 }
 
 function draw() {
