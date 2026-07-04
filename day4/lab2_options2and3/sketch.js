@@ -38,3 +38,32 @@ function draw() {
   //code reference: https://beta.p5js.org/reference/p5/filter/
     filter(BLUR, 1);
 }
+
+//https://p5js.org/reference/p5/createSelect/
+
+let mySelect;
+
+function setup() {
+  createCanvas(100, 100);
+
+  // Create a dropdown and place it beneath the canvas.
+  mySelect = createSelect();
+  mySelect.position(0, 100);
+
+  // Add color options.
+  mySelect.option('red');
+  mySelect.option('green');
+  mySelect.option('blue');
+  mySelect.option('yellow');
+
+  // Set the selected option to "red".
+  mySelect.selected('red');
+
+  describe('A red square with a dropdown menu beneath it. The square changes color when a new color is selected.');
+}
+
+function draw() {
+  // Use the selected value to paint the background.
+  let c = mySelect.selected();
+  background(c);
+}
