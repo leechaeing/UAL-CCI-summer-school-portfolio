@@ -18,8 +18,13 @@ let star2;
 let star3; 
 let star4; 
 
-let ear1; 
-let ear2; 
+let ears1; 
+let ears2; 
+
+let earTimer = 0; 
+let earImage;
+let earPosX;
+let earPosY;
 
 //reference to button_demo
 let heartCounter = 0; 
@@ -43,10 +48,11 @@ async function setup() {
   star3 = await loadImage('./assets/star3.png');
   star4 = await loadImage('./assets/star4.png');
 
-  ear1 = await loadImage('./assets/ears1.png');
-  ear2 = await loadImage('./assets/ears2.png'); 
+  ears1 = await loadImage('./assets/ears1.png');
+  ears2 = await loadImage('./assets/ears2.png'); 
 
   createCanvas(800, 800); 
+  //frameRate(2);
 
   describe('Video capture from the device webcam.');
 
@@ -104,6 +110,20 @@ function draw() {
   for (let s of placedStickers) {
     image(s.img, s.x, s.y, 80, 80);
   }
+
+  if(earTimer > 0) {
+    image(earImage, earPosX, earPosY, 200, 200); 
+    earTimer -= 1; 
+  } else if (frameCount % 30 === 0 && random(1) < 0.3) {
+     let earOptions = [ears1, ears2];
+     earImage = random(earOptions); 
+     let earX = [300, 400, 500];
+     let earY = [270, 280, 290,, 300];
+
+    earPosX = random(earX); 
+    earPosY = random(earY);
+    earTimer = 90;
+    }
 }
 
 function mousePressed() {
