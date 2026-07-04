@@ -20,7 +20,7 @@
 ## Day 4 (2026/07/02)
 <img height="410" alt="Image" src="./assets/4.png" /> <img height="410" alt="" src="./assets/4_2.png" />
 
-<img height="220" alt="Image" src="./assets/4_3.png" /> <img height="220" alt="" src="./assets/4_4.png" />
+<img height="240" alt="Image" src="./assets/4_3.png" /> <img height="240" alt="" src="./assets/4_4.png" />
 
 ## Day 5 (2026/07/06)
 
