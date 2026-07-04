@@ -69,7 +69,7 @@ function keyPressed() {
         let y = random(0, height); 
 
         image(randomFish, x, y, randomSize, randomSize);
-   } else if (keyCode === ENTER) {
+   } else if (keyCode === 13) {
           let randomWater = waterImage[int(random(waterImage.length))];
 
           image(randomWater, 0, 0, 800, 800);
