@@ -1,4 +1,5 @@
 let capture;
+let bgSelect;
 
 let background1;
 let background2; 
@@ -14,7 +15,7 @@ let star2;
 let star3; 
 let star4; 
 
-let ears1; 
+let ear1; 
 let ear2; 
 
 async function setup() {
@@ -41,14 +42,33 @@ async function setup() {
   createCanvas(800, 800);
 
   capture = createCapture(VIDEO);
-
   capture.size(600, 500);
-
   capture.hide();
+
+  bgSelect = createSelect();
+  bgSelect.position(0, 100);
+  bgSelect.option('background1');
+  bgSelect.option('background2');
+  bgSelect.option('background3');
+  bgSelect.selected('background1');
+
+  describe('A dropdown to pick a background image.');
 }
 
+
 function draw() {
-  background(250);
+  let bgChoice = bgSelect.selected();
+  let currentBackground; 
+
+  if(bgChoice === 'background1') {
+    currentBackground = background1; 
+  }else if(bgChoice === 'background2') {
+    currentBackground = background2; 
+  }else if(bgChoice === 'background3') {
+    currentBackground = 'background3';
+  }
+
+  image(currentBackground, 100, 150, 800, 800);
 
   push();
   translate(width, 0);
@@ -56,35 +76,5 @@ function draw() {
   image(capture, 100, 150, 600, 500);
   pop();
 
-  //code reference: https://beta.p5js.org/reference/p5/filter/
-    filter(BLUR, 1);
-}
-
-//https://p5js.org/reference/p5/createSelect/
-
-let mySelect;
-
-function setup() {
-  createCanvas(100, 100);
-
-  // Create a dropdown and place it beneath the canvas.
-  mySelect = createSelect();
-  mySelect.position(0, 100);
-
-  // Add color options.
-  mySelect.option('red');
-  mySelect.option('green');
-  mySelect.option('blue');
-  mySelect.option('yellow');
-
-  // Set the selected option to "red".
-  mySelect.selected('red');
-
-  describe('A red square with a dropdown menu beneath it. The square changes color when a new color is selected.');
-}
-
-function draw() {
-  // Use the selected value to paint the background.
-  let c = mySelect.selected();
-  background(c);
+  filter(BLUR, 1);
 }
