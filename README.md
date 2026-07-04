@@ -23,7 +23,7 @@ Daily Reflections by Amy (Eunjong) Lee
 
 <img height="235" alt="Image" src="./assets/4_3.png" /> <img height="235" alt="" src="./assets/4_4.png" />
 
-<img height="300" alt="Image" src="./assets/4_5.png" /> 
+<img height="350" alt="Image" src="./assets/4_5.png" /> 
 
 ## Day 5 (2026/07/06)
 
