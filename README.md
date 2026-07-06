@@ -8,11 +8,11 @@ Though it was my first time using Visual Studio Code, it wasn't too difficult to
 
 Based on my one-day experience of Processing, from a workshop conducted by artist [Jiho Park](https://www.jishopark.net/), I wanted to try more advanced prompts to depict a personal story. 
 
-I found a [rotateY();](https://beta.p5js.org/reference/p5/quad/) code that inspired me to create a kinetic portrait. I tend to switch up my makeup and style every day; thus, different people have told me that I look like different things. For example, friend A would say I look like celebrity X while friend B would say I look like celebrity Y. I found it interesting that people realize various things within one face (me). 
+I found a [rotateY();](https://beta.p5js.org/reference/p5/quad/) code that inspired me to create a kinetic portrait. I tend to switch up my makeup and style every day; thus, different people have told me that I look like different people. For example, friend A might say I look like celebrity X, while friend B might say I look like celebrity Y. I found it interesting that people realize various things within one face (me). 
 
-My portait attempts to display this by having the pupils, eyes, nose, lips, and blush continuously change colors and/or sizes. My two beauty marks remain static within the quick changing environment to hint at the fact that even with different features, this is still my face. 
+My portrait attempts to display this by having the pupils, eyes, nose, lips, and blush continuously changes in colors and/or sizes. My two beauty marks remain static within the quick-changing environment, hinting that despite the changing features, this is still my face. 
 
-The biggest challenges I had includes finding the right shape for hair and figuring out the grid for my eyebrows.  
+The biggest challenges I faced included finding the right shape for the hair and figuring out the grid for my eyebrows. I wasn't familiar with the arc(); function; thus, I had some trouble translating my hair onto a 2D canvas. I would have preferred to have a changing hairstyle. In addition, the quad(); code I used to draw my eyebrows was also quite strenuous to use having to set four parameters for each vertex of the polygon. I still prefer analog methods of working through mathematics: using a paper and pen to draw and write out equations. Hence, understanding the p5.js coordinate system took some time. 
 
 ## Day 2 (2026/06/30)
 <img height="400" alt="" src="./assets/2.png" /> <img height="400" alt="" src="./assets/2_2.png" />
