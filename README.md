@@ -27,6 +27,9 @@ I altered the owl_demo sketch so that the owls would appear and disappear in a h
 Lab 1: Again, I was playing around with the coordinates to create an interesting binary pattern. The [dust characters](https://en.wikipedia.org/wiki/Susuwatari) were originally simple circles. However, after learning a [star();](https://archive.p5js.org/examples/form-star.html) function, I replaced the circles to better depict the actual characters. 
 
 <img height="400" alt="" src="./assets/2.png" /> <img height="400" alt="" src="./assets/2_2.png" />
+
+Lab 3: My main goal was to utilize the grid and translate(); features. In an attempt to advance from the methods I used in class with Lab 1, I incorporated count, spacing, and offset to efficiently produce an evenly spaced drawing instead of manually specifying each coordinate. I reused the shapes I made back in Lab 1, as I really liked the outcome. Originally, I only had the stars changing colors with the random(); function. However, over the week 1 weekend, I revised the code to have the dust characters rotate like the triangles in the anni_albers_sketch. 
+
 <img height="400" alt="" src="./assets/2_7.png" /> <img height="400" alt="" src="./assets/2_8.png" />
 
 ## Day 3 (2026/07/01)
