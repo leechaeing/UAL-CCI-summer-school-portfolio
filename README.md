@@ -4,6 +4,11 @@ Daily Reflections by Amy (Eunjong) Lee
 ## Day 1 (2026/06/29)
 <img width="270" alt="" src="./assets/1.png" /> <img width="270" alt="" src="./assets/1_2.png" /> <img width="270" alt="Image" src="./assets/1_3.png" />
 
+Though it was my first time using Visual Studio Code, it wasn't too hard to follow along since I have experience with Processing and knew about GitHub beforehand. 
+
+https://beta.p5js.org/reference/p5/quad/ 
+
+Coming from my one-day experience of Processing from a workshop conducted by artist [Jiho Park] (https://www.jihopark.net/) 
 
 ## Day 2 (2026/06/30)
 <img height="400" alt="" src="./assets/2.png" /> <img height="400" alt="" src="./assets/2_2.png" />
