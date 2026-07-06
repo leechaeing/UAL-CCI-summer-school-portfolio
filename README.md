@@ -55,7 +55,7 @@ git push origin main
 
 <img height="235" alt="Image" src="./assets/4_3.png" /> <img height="235" alt="" src="./assets/4_4.png" />
 
-<img height="350" alt="Image" src="./assets/4_5.png" /> 
+<img height="300" alt="Image" src="./assets/4_5.png" /> 
 
 Day 4
 - Bubble from online
@@ -71,7 +71,7 @@ Weekend: owl, dust,
 
 ## Day 5 (2026/07/06)
 
-<img height="200" alt="Image" src="./assets/5.png" /> <img height="200" alt="Image" src="./assets/5_2.png" /> <img height="200" alt="Image" src="./assets/5_8.png" /> <img height="220" alt="Image" src="./assets/5_3.png" /> <img height="220" alt="Image" src="./assets/5_4.png" /> <img height="150" alt="Image" src="./assets/5_5.png" /> <img height="150" alt="Image" src="./assets/5_6.png" /> <img height="150" alt="Image" src="./assets/5_7.png" /> 
+<img height="200" alt="Image" src="./assets/5.png" /> <img height="200" alt="Image" src="./assets/5_2.png" /> <img height="200" alt="Image" src="./assets/5_8.png" /> <img height="220" alt="Image" src="./assets/5_3.png" /> <img height="220" alt="Image" src="./assets/5_4.png" /> <img height="150" alt="Image" src="./assets/5_7.png" /> <img height="150" alt="Image" src="./assets/5_5.png" /> <img height="150" alt="Image" src="./assets/5_6.png" />  
 
 
 ## Day 6 (2026/07/07)
