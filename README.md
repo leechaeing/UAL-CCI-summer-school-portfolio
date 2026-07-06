@@ -71,7 +71,7 @@ Weekend: owl, dust,
 
 ## Day 5 (2026/07/06)
 
-<img height="200" alt="Image" src="./assets/5.png" /> <img height="200" alt="Image" src="./assets/5_2.png" /> <img height="200" alt="Image" src="./assets/5_3.png" /> <img height="200" alt="Image" src="./assets/5_4.png" /> <img height="200" alt="Image" src="./assets/5_5.png" /> <img height="200" alt="Image" src="./assets/5_6.png" /> <img height="200" alt="Image" src="./assets/5_7.png" /> <img height="200" alt="Image" src="./assets/5_8.png" /> 
+<img height="200" alt="Image" src="./assets/5.png" /> <img height="200" alt="Image" src="./assets/5_2.png" /> <img height="200" alt="Image" src="./assets/5_8.png" /> <img height="200" alt="Image" src="./assets/5_3.png" /> <img height="200" alt="Image" src="./assets/5_4.png" /> <img height="180" alt="Image" src="./assets/5_5.png" /> <img height="180" alt="Image" src="./assets/5_6.png" /> <img height="180" alt="Image" src="./assets/5_7.png" /> 
 
 
 ## Day 6 (2026/07/07)
