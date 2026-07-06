@@ -28,12 +28,27 @@ Lab 1: Again, I was playing around with the coordinates to create an interesting
 
 <img height="400" alt="" src="./assets/2.png" /> <img height="400" alt="" src="./assets/2_2.png" />
 
-Lab 3: My main goal was to utilize the grid and translate(); features. In an attempt to advance from the methods I used in class with Lab 1, I incorporated count, spacing, and offset to efficiently produce an evenly spaced drawing instead of manually specifying each coordinate. I reused the shapes I made back in Lab 1, as I really liked the outcome. Originally, I only had the stars changing colors with the random(); function. However, over the week 1 weekend, I revised the code to have the dust characters rotate like the triangles in the anni_albers_sketch. 
+Lab 3: My main goal was to utilize the grid and translate(); features. In an attempt to advance from the methods I used in class with Lab 1, I incorporated count, spacing, and offset to efficiently produce an evenly spaced drawing instead of manually specifying each coordinate. I reused the shapes I made back in Lab 1, as I really liked the outcome. Originally, I only had the stars changing colors with the random(); function. However, over the week 1 weekend, I revised the code to have the dust characters rotate like the triangles in the anni_albers_sketch. Below is the final final sketch. 
 
 <img height="400" alt="" src="./assets/2_7.png" /> <img height="400" alt="" src="./assets/2_8.png" />
 
 ## Day 3 (2026/07/01)
 <img height="410" alt="Image" src="./assets/3.png" /> <img height="410" alt="" src="./assets/3_2.png" />
+
+Day 3
+- Data weird
+
+I was inspired by Laurie Frick’s Stress Inventory. Tried to apply day one (drawing polygons) and day 2 (organizing grid) but turns out it was much more complex than what I expected. The data I dowloaded were missing some thus my code turned out weird when 
+pH and secchi value as circle diameters so larger red circles mean higher pH measures; larger blue circles means higher sec chi values
+Looking at it for long enough it feels like an optic illusion drawing  
+
+Uploaded images today: searched up alternative way because I was having branches diverging? Saving code here for myself later: 
+
+git pull origin main --no-rebase
+:wq
+git push origin main
+
+**add circles 
 
 ## Day 4 (2026/07/02)
 <img height="410" alt="Image" src="./assets/4.png" /> <img height="410" alt="" src="./assets/4_2.png" />
@@ -42,7 +57,29 @@ Lab 3: My main goal was to utilize the grid and translate(); features. In an att
 
 <img height="350" alt="Image" src="./assets/4_5.png" /> 
 
+Day 4
+- Bubble from online
+
+Story: purikura inspired photo decorating interface; hard to complete and decorate “fully” or to one’s satisfaction because of time limit; made it annoying to decorate to allude to the real experience of taking Japanese print club photos 
+
+Combination of options 2 and 3. Tried to incorporate option 1 too (annoying [drawing] tool)
+
+Difficulty: making it intentionally annoying than just badly coded 
+
+
+Weekend: owl, dust, 
+
 ## Day 5 (2026/07/06)
+
+<img height="200" alt="Image" src="./assets/5.png" /> 
+<img height="200" alt="Image" src="./assets/5_2.png" /> 
+<img height="200" alt="Image" src="./assets/5_3.png" /> 
+<img height="200" alt="Image" src="./assets/5_4.png" /> 
+<img height="200" alt="Image" src="./assets/5_5.png" /> 
+<img height="200" alt="Image" src="./assets/5_6.png" /> 
+<img height="200" alt="Image" src="./assets/5_7.png" /> 
+<img height="200" alt="Image" src="./assets/5_8.png" /> 
+
 
 ## Day 6 (2026/07/07)
 
