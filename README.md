@@ -54,15 +54,47 @@ git pull origin main --no-rebase
 git push origin main
 
 ## Day 4 (2026/07/02)
-<img height="410" alt="Image" src="./assets/4.png" /> <img height="410" alt="" src="./assets/4_2.png" />
+
+Lab 1: In class, I started by figuring out how to load different images so the user can interact to control which photos are displayed. I had a basic code that loaded the image files at random places and a drawing tool to decorate the collage. 
+
 <img height="235" alt="Image" src="./assets/4_3.png" /> <img height="235" alt="" src="./assets/4_4.png" />
-*Self-taken photos*
+<img height="410" alt="Image" src="./assets/4.png" /> <img height="410" alt="" src="./assets/4_2.png" />
+*Self-taken photos used*
+
+Lab 1: I edited the image files so they would look more like a collage when put together. Keeping the drawing tool and random location feature, I added a randomSize(); feature to make the picture more interesting. The bubbles were inspired by content I found online: a code Google Gemini summarized. However, there were many functions that I didn’t know of, including class, constructor, and float. The code is included in my Day 4 folder named bubble_from_online. Again, I didn’t want to work with an AI-produced code that I cannot follow along with; I did, however, learn about an opacity option in fill(); 
 
 <img height="300" alt="Image" src="./assets/4_5.png" /> 
 
+Lab 2: 
+
 ## Day 5 (2026/07/06)
 
-<img height="200" alt="Image" src="./assets/5.png" /> <img height="200" alt="Image" src="./assets/5_2.png" /> <img height="200" alt="Image" src="./assets/5_8.png" /> <img height="220" alt="Image" src="./assets/5_3.png" /> <img height="220" alt="Image" src="./assets/5_4.png" /> <img height="150" alt="Image" src="./assets/5_7.png" /> <img height="150" alt="Image" src="./assets/5_5.png" /> <img height="150" alt="Image" src="./assets/5_6.png" />  
+<img height="200" alt="Image" src="./assets/5.png" /> <img height="200" alt="Image" src="./assets/5_2.png" /> <img height="200" alt="Image" src="./assets/5_8.png" /> 
+<img height="220" alt="Image" src="./assets/5_3.png" /> <img height="220" alt="Image" src="./assets/5_4.png" /> 
+<img height="150" alt="Image" src="./assets/5_7.png" /> <img height="150" alt="Image" src="./assets/5_5.png" /> <img height="150" alt="Image" src="./assets/5_6.png" />  
+
+A series of creative applications of AI. A brief review of my exploration, corresponding to the order of screenshots.
+
+
+- [Splash Canvas](https://artsandculture.google.com/experiment/splash-canvas/vQFCtQB7FDnYkA?hl=en): Here I tried to draw until I kind of agreed with what the squids were guessing. I appreciate how they tried to find meaning behind my thoughtless drawings.
+- [Infinite Drum Machine](https://experiments.withgoogle.com/ai/drum-machine/view/): It felt like an anything-can-be-music example, something that used to be a trend back in the day. The mapped-out interface was interesting; again, I wonder what patterns the AI noticed to group the sounds like that.
+- [ILA: Recurse Mix](https://infinite.mothquantum.com/):
+- [Suno](https://www.suno.com): I see great opportunities within this AI tool: those who don't have the money to buy music equipment or the skills to create music from scratch could benefit from SUNO. I used it to create [something](https://suno.com/s/oyCoTEfCzdEFYdqZ) that sounds similar to what I have been listening to on loop recently, as the Spotify magic suggestions didn't do the job. Above are the pros, I anticipate, as there has been controversy regarding AI music with the trend of "GG EZ" by M.Sasuke.
+- [Emoji Scavenger](https://archive.google/emojiscavengerhunt/): I found the miscommunication quite funny. Similar to how the Little Prince saw a snake swallowing an elephant instead of a hat, the guesses made by the AI make me wonder exactly what pattern or form made them think that. It felt like interacting with someone from a totally different background who does not speak any of the languages I speak. 
+- [Teachable Machine](https://teachablemachine.withgoogle.com/): That I can make a personalized model excites me, as I have seen recent young artists using image detectors. For my experiment, though, I found it intriguing that the model fails to guess number two the most when I had fed it more images of two.
+- [Even Stranger Things](https://evenstranger.pw/): Nothing much happened except classification and the same filter or graphic being placed on top of the images I uploaded.
+
+A thought has always bothered me since I declared Art and Computation as my major. Whatever I make, it is already on the internet and usually in a better form. I am a beginner, so it makes sense: everyone starts with color charts and shading polygons. Because we have been practicing basic p5.js, making projects without much story or intent, I haven't been a fan of what I have made so far. This project, however, made me feel like I was making something more meaningful as I could add more context behind my code.
+
+<img height="150" alt="Image" src="./assets/5_9.png" /> <img height="150" alt="Image" src="./assets/5_10.png" /> 
+[Online Editor](https://editor.p5js.org/leechaeing/sketches/v_rZYQ75U)
+
+Noonchi is a Korean word that reflects much culture making it hard to translate in different languages. I am someone who uses a lot of noonchi to be aware of someone's mood. It may be disrespectful to declare someone's feelings; however, the action comes from trying to avoid conflict and care for another. Text and screens act as barriers making it harder to guess others' moods, as nuance, voice tone, etc. are also important factors to consider. I made a filter allowing users to announce their moods. I only have two moods as of now: sad and happy. Clicking on the sad button, users can control the number of tears displaying the depths of their feelings. The happy button resets the tear counter and tracks the nose location to draw stars at random locations. There is also a textbox so that users can communicate their states better. 
+
+Some difficulties I had were coding blinking and mouth opening features. 
+ 
+Blinking was way too difficult. Tried mouth open but too difficult again. Probably something to do with how api is detecting my features? 
+What would be a difference between motion graphics and generative art? in what situation would you choose one method over the other?
 
 
 ## Day 6 (2026/07/07)
