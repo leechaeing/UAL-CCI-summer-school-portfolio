@@ -35,7 +35,7 @@ Lab 3: My main goal was to utilize the grid and translate(); features. In an att
 ## Day 3 (2026/07/01)
 <img height="410" alt="Image" src="./assets/3.png" /> <img height="410" alt="" src="./assets/3_2.png" /> 
 
-I was inspired by an artwork, the [Stress Inventory by Laurie Frick](https://www.lauriefrick.com/stress-inventory). Combining skills from the previous two days, I wanted to utilize draw(); polygons, and practice organizing my drawing with grids. However, the process was much more complicated than what I had expected. 
+I was inspired by an artwork, the [*Stress Inventory* by Laurie Frick](https://www.lauriefrick.com/stress-inventory). Combining skills from the previous two days, I wanted to utilize draw(); polygons, and practice organizing my drawing with grids. However, the process was much more complicated than what I had expected. 
 
 The data CSV I chose (water quality) to work with had some missing data at random places. I worked with an AI tool to come up with a code that would identify these holes so that my code would check for valid data before use. Figuring this part out took the longest, as the other processes, like establishing a grid and drawing circles, were familiar actions. 
 
@@ -55,8 +55,8 @@ git push origin main
 
 ## Day 4 (2026/07/02)
 <img height="410" alt="Image" src="./assets/4.png" /> <img height="410" alt="" src="./assets/4_2.png" />
-
 <img height="235" alt="Image" src="./assets/4_3.png" /> <img height="235" alt="" src="./assets/4_4.png" />
+*Self-taken photos*
 
 <img height="300" alt="Image" src="./assets/4_5.png" /> 
 
