@@ -106,7 +106,7 @@ A thought I had since the first session: What would be a difference between moti
 
 ## Day 7 (2026/07/08)
 
-<img height="150" alt="Image" src="./assets/7.png" /> <img height="150" alt="Image" src="./assets/7_2.png" />
+<img height="150" alt="Image" src="./assets/7.png" /> <img height="150" alt="Image" src="./assets/7_2.png" /> <img height="150" alt="Image" src="./assets/7_3.png" /> <img height="150" alt="Image" src="./assets/7_4.png" />
 
 
 ## Day 8 (2026/07/09)
