@@ -89,13 +89,11 @@ A thought has always bothered me since I declared Art and Computation as my majo
 <img height="150" alt="Image" src="./assets/5_9.png" /> <img height="150" alt="Image" src="./assets/5_10.png" /> 
 [Online Editor](https://editor.p5js.org/leechaeing/sketches/v_rZYQ75U)
 
-Noonchi is a Korean word that reflects much culture making it hard to translate in different languages. I am someone who uses a lot of noonchi to be aware of someone's mood. It may be disrespectful to declare someone's feelings; however, the action comes from trying to avoid conflict and care for another. Text and screens act as barriers making it harder to guess others' moods, as nuance, voice tone, etc. are also important factors to consider. I made a filter allowing users to announce their moods. I only have two moods as of now: sad and happy. Clicking on the sad button, users can control the number of tears displaying the depths of their feelings. The happy button resets the tear counter and tracks the nose location to draw stars at random locations. There is also a textbox so that users can communicate their states better. 
+Noonchi is a Korean word that reflects much culture, making it hard to translate into other languages. I am someone who uses a lot of noonchi to detect someone's mood. It may be disrespectful to declare someone's feelings; however, we do this to avoid conflict and care for another. Text and screens act as barriers, making it harder to guess others' moods: nuance, tone, etc., are also important factors to consider. I made a filter for users to announce their moods. I only have two moods as of now: sad and happy. By clicking the sad button, users can control the number of tears, showing the depth of their feelings. The happy button resets the tear counter and tracks the nose location to draw stars at random locations. There is also a textbox so that users can communicate their states.
 
-Some difficulties I had were coding blinking and mouth opening features. 
- 
-Blinking was way too difficult. Tried mouth open but too difficult again. Probably something to do with how api is detecting my features? 
-What would be a difference between motion graphics and generative art? in what situation would you choose one method over the other?
+Some difficulties I had were coding the blinking and mouth-opening features. I asked an AI tool how I should go about this, and it suggested using the ears to help calculate whether the eyes were closed by frame. Unfortunately, I could not make a code that worked. The code itself didn't seem to have much issue; rather, the API seemed to identify my eyes as nearly closed even when they weren't. I tried to utilize the mouth so that tears would be added when you open your mouth. Honestly, I was discouraged by the difficulty and the fact that adding tears by opening your mouth did not feel convincing.
 
+A thought I had since the first session: What would be a difference between motion graphics and generative art? in what situation would you choose one method over the other?
 
 ## Day 6 (2026/07/07)
 
