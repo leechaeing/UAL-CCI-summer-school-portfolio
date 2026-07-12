@@ -177,7 +177,11 @@ to:
 
 ## Day 8 (2026/07/09)
 
-<img height="180" alt="Image" src="./assets/8.png" /> <img height="180" alt="Image" src="./assets/8_2.png" /> <img height="180" alt="Image" src="./assets/8_3.png" /> <img height="180" alt="Image" src="./assets/8_4.png" /> <img height="180git" alt="Image" src="./assets/8_5.png" /> 
+<img height="180" alt="Image" src="./assets/8.png" /> <img height="180" alt="Image" src="./assets/8_2.png" /> <img height="180" alt="Image" src="./assets/8_3.png" /> <img height="180" alt="Image" src="./assets/8_4.png" /> <img height="250" alt="Image" src="./assets/8_5.png" /> 
+
+Lab 2: I am not too sure if I completed this task correctly due to my absence. I duplicated and used the example in the class GitHub to code online in p5.js.0.9.0
+
+[My code](https://editor.p5js.org/leechaeing/sketches/2It4vko5e) uses [the model](https://teachablemachine.withgoogle.com/models/MfoGVr4Ev/) I trained in Teachable Machine. I found very short 5-to 8-second sounds on [Pixabay](https://pixabay.com/sound-effects/) to code with my model. I trained a similar model before using gestures one, two, and three. This time, though, I added more images in quantity and variety for data. Similar to before, this model had trouble identifying one of the gestures: this time, three. Because I coded so that other sound files would stop once one of them started playing, the resulting sounds were glitchy and staccato-like. It reminded me of my experience exploring Infinite Drums: when I was moving my cursor randomly to find sounds.
 
 ## Day 9 (2026/07/13)
 
