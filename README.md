@@ -97,16 +97,15 @@ A thought I had since the first session: What would be a difference between moti
 
 ## Day 6 (2026/07/07)
 
-<img height="150" alt="Image" src="./assets/6.png" /> <img height="150" alt="Image" src="./assets/6_2.png" /> <img height="150" alt="Image" src="./assets/6_3.png" /> <img height="150" alt="Image" src="./assets/6_4.png" /> <img height="150" alt="Image" src="./assets/6_5.png" /> In-class explorations.
+Listening to the lecture I had a question in mind: there are different ethics for different positions like user ethics, designer ethics, etc. But, can we “teach” computer ethics? Would there be computer ethics?
 
-<img height="230" alt="Image" src="./assets/6_6.png" /> <img height="230" alt="Image" src="./assets/6_7.png" /> 
-My slide from the [Group Presentation](https://canva.link/tvf8i7b7sfbemqp).
+<img height="150" alt="Image" src="./assets/6.png" /> <img height="150" alt="Image" src="./assets/6_2.png" /> <img height="150" alt="Image" src="./assets/6_3.png" /> <img height="150" alt="Image" src="./assets/6_4.png" /> <img height="150" alt="Image" src="./assets/6_5.png" /> 
 
-<img height="340" alt="Image" src="./assets/6_8.png" /> <img height="340" alt="Image" src="./assets/6_10.png" /> 
-OpenAI ChatGPT based on GPT-5.5 and Anthropic Claude Sonnet 5 (conversation model) used to generate the images respectively. 
+In-class explorations: 
 
-
-There are user ethics, designer ethics, but can we “teach” computer ethics? 
+doodleNet
+- Classifier variable to bring in DoodleNet Classification ml5 
+- resultsP variable to communicate what it has classified and how sure it is 
 
 imageClassifier_webcam
 - Classifier variable to bring in the ml5
@@ -114,44 +113,42 @@ imageClassifier_webcam
 - Label variable to communicate with code via text 
 - Video becomes input and label shows output (what ml5 reads) 
 
-doodleNet
-- Classifier variable to bring in DoodleNet Classification ml5 
-- resultsP variable to communicate what it has classified and how sure it is 
-
 Drag and drop 
 - Classifier variable to bring in 
 - Img variable for image input 
-- Label and confidence variable for output / communication 
+- Label and confidence variable for output and communication 
 
 Teachable machine 
 - Url + model.json
-- Preload to ensure everything OK before setup 
+- Preload to ensure everything OK before setup     
 
-* (in the interface) are there any warnings or safeguards?
-    * Yes; safeguards team; enforces in real time 
-        * Usage policy (Acceptable Use Policy) 
-            * Universal Usage Standards: for all users and use cases 
-            * High-Risk Use Case Requirements: consumer-facing use cases posing elevated risk of harm 
-                * Legal, healthcare, insurance, finance, employment/housing, academic testing, accreditation, admissions, media/professional journalistic content 
-            * Additional Use Case Guidelines: consumer-facing chatbots, products serving minors, agentic use, Model Context Protocol servers 
-        * Evolving framework 
-            * Based on physical, psychological, economic, societal, individual autonomy 
-        * External partnerships 
-            * Experts in policy, enforcement, product, data science, threat intelligence, engineering, terrorism, radicalization, child safety, mental health
-            * Partner with ThroughLine for self-harm and mental health situations 
-    * usersafety@anthropic.com: users can report 
-    * Safety evaluations, risk assessments, bias evaluations before releasing new model 
-    * Real-time detection and enforcement 
-        * Classifiers 
+<img height="230" alt="Image" src="./assets/6_6.png" /> <img height="230" alt="Image" src="./assets/6_7.png" /> 
+My slide from the [Group Presentation](https://canva.link/tvf8i7b7sfbemqp).
 
-* Do you believe the policy is sufficient for an ethical approach?
-    * Their attempts to making an ethical approach lead to encroachment of other ethical properties 
-    * Lack of exposure to protecting privacy 
-    * Lack of environmental issues 
+Notes from research: 
 
-* what prompting techniques did you use to achieve the result?
-* Was there anything that you struggled to communicate to the model?
-* How much do you think the final reesult was of your own making, and how much depended on the model? If you were not the (only) author, then who?
+3. (in the inferface) are there any warnings of safeguards?
+- Yes; safeguards team; enforces in real time
+- Usage policy (Acceptable Use Policy)
+- Universal Usage Standards: for all users and use cases
+- High-Risk Use Case Requirements: consumer-facing use cases posing elevated risk of harm
+- Experts for legal, healthcare, insurance, finance, employment/housing, academic testing, accreditation, admissions, media/professional journalistic content
+- Additional Use Case Guidelines: consumer-facing chatbots, products serving minors, agentic use, Model Context Protocol servers 
+- Evolving framework: Based on physical, psychological, economic, societal, individual autonomy
+- External partnerships: Experts in policy, enforcement, product, data science, threat intelligence, engineering, terrorism, radicalization, child safety, mental health
+
+e.g.) Partner with ThroughLine for self-harm and mental health situations
+- usersafety@anthropic.com: users can report 
+- Safety evaluations, risk assessments, bias evaluations before releasing new model
+- Real-time detection and enforcement: Classifiers 
+
+4. Do you believe the policy is sufficient for an ethical approach?
+- Their attempts to making an ethical approach lead to encroachment of other ethical properties
+- Lack of exposure to protecting privacy 
+-  Lack of environmental issues
+
+<img height="340" alt="Image" src="./assets/6_8.png" /> <img height="340" alt="Image" src="./assets/6_10.png" /> 
+OpenAI ChatGPT based on GPT-5.5 and Anthropic Claude Sonnet 5 (conversation model) used to generate the images respectively.    
 
 ## Day 7 (2026/07/08)
 
