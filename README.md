@@ -93,21 +93,69 @@ Noonchi is a Korean word that reflects much culture, making it hard to translate
 
 Some difficulties I had were coding the blinking and mouth-opening features. I asked an AI tool how I should go about this, and it suggested using the ears to help calculate whether the eyes were closed by frame. Unfortunately, I could not make a code that worked. The code itself didn't seem to have much issue; rather, the API seemed to identify my eyes as nearly closed even when they weren't. I tried to utilize the mouth so that tears would be added when you open your mouth. Honestly, I was discouraged by the difficulty and the fact that adding tears by opening your mouth did not feel convincing.
 
-A thought I had since the first session: What would be a difference between motion graphics and generative art? in what situation would you choose one method over the other?
+A thought I had since the first session: What would be a difference between motion graphics and generative art? In what situation would you choose one method over the other?
 
 ## Day 6 (2026/07/07)
 
-<img height="150" alt="Image" src="./assets/6.png" /> <img height="150" alt="Image" src="./assets/6_2.png" /> <img height="150" alt="Image" src="./assets/6_3.png" /> <img height="150" alt="Image" src="./assets/6_4.png" /> <img height="150" alt="Image" src="./assets/6_5.png" /> 
+<img height="150" alt="Image" src="./assets/6.png" /> <img height="150" alt="Image" src="./assets/6_2.png" /> <img height="150" alt="Image" src="./assets/6_3.png" /> <img height="150" alt="Image" src="./assets/6_4.png" /> <img height="150" alt="Image" src="./assets/6_5.png" /> In-class explorations.
 
-<img height="150" alt="Image" src="./assets/6_6.png" /> <img height="150" alt="Image" src="./assets/6_7.png" />
+<img height="250" alt="Image" src="./assets/6_6.png" /> <img height="250" alt="Image" src="./assets/6_7.png" />
 
-<img height="150" alt="Image" src="./assets/6_8.png" /> <img height="150" alt="Image" src="./assets/6_10.png" />
+<img height="250" alt="Image" src="./assets/6_8.png" /> <img height="250" alt="Image" src="./assets/6_10.png" /> 
 
 
 ## Day 7 (2026/07/08)
 
 <img height="150" alt="Image" src="./assets/7.png" /> <img height="150" alt="Image" src="./assets/7_2.png" /> <img height="150" alt="Image" src="./assets/7_3.png" /> <img height="150" alt="Image" src="./assets/7_4.png" />
 
+There are user ethics, designer ethics, but can we “teach” computer ethics? 
+
+imageClassifier_webcam
+- Classifier variable to bring in the ml5
+- Video variable to use webcam 
+- Label variable to communicate with code via text 
+- Video becomes input and label shows output (what ml5 reads) 
+
+doodleNet
+- Classifier variable to bring in DoodleNet Classification ml5 
+- resultsP variable to communicate what it has classified and how sure it is 
+
+Drag and drop 
+- Classifier variable to bring in 
+- Img variable for image input 
+- Label and confidence variable for output / communication 
+
+Teachable machine 
+- Url + model.json
+- Preload to ensure everything OK before setup 
+
+* (in the interface) are there any warnings or safeguards?
+    * Yes; safeguards team; enforces in real time 
+        * Usage policy (Acceptable Use Policy) 
+            * Universal Usage Standards: for all users and use cases 
+            * High-Risk Use Case Requirements: consumer-facing use cases posing elevated risk of harm 
+                * Legal, healthcare, insurance, finance, employment/housing, academic testing, accreditation, admissions, media/professional journalistic content 
+            * Additional Use Case Guidelines: consumer-facing chatbots, products serving minors, agentic use, Model Context Protocol servers 
+        * Evolving framework 
+            * Based on physical, psychological, economic, societal, individual autonomy 
+        * External partnerships 
+            * Experts in policy, enforcement, product, data science, threat intelligence, engineering, terrorism, radicalization, child safety, mental health
+            * Partner with ThroughLine for self-harm and mental health situations 
+    * usersafety@anthropic.com: users can report 
+    * Safety evaluations, risk assessments, bias evaluations before releasing new model 
+    * Real-time detection and enforcement 
+        * Classifiers 
+
+* Do you believe the policy is sufficient for an ethical approach?
+    * Their attempts to making an ethical approach lead to encroachment of other ethical properties 
+    * Lack of exposure to protecting privacy 
+    * Lack of environmental issues 
+
+* what prompting techniques did you use to achieve the result?
+* Was there anything that you struggled to communicate to the model?
+* How much do you think the final reesult was of your own making, and how much depended on the model? If you were not the (only) author, then who?
+
+https://canva.link/tvf8i7b7sfbemqp
 
 ## Day 8 (2026/07/09)
 
