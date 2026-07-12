@@ -137,7 +137,7 @@ Notes from research:
 - Evolving framework: Based on physical, psychological, economic, societal, individual autonomy
 - External partnerships: Experts in policy, enforcement, product, data science, threat intelligence, engineering, terrorism, radicalization, child safety, mental health
 
-e.g.) Partner with ThroughLine for self-harm and mental health situations
+e.g., Partner with ThroughLine for self-harm and mental health situations
 - usersafety@anthropic.com: users can report 
 - Safety evaluations, risk assessments, bias evaluations before releasing new model
 - Real-time detection and enforcement: Classifiers 
@@ -148,7 +148,9 @@ e.g.) Partner with ThroughLine for self-harm and mental health situations
 -  Lack of environmental issues
 
 <img height="340" alt="Image" src="./assets/6_8.png" /> <img height="340" alt="Image" src="./assets/6_10.png" /> 
-OpenAI ChatGPT based on GPT-5.5 and Anthropic Claude Sonnet 5 (conversation model) used to generate the images respectively.    
+OpenAI ChatGPT based on GPT-5.5 and Anthropic Claude Sonnet 5 (conversation model) used to generate the images, respectively.  
+
+I used the same prompts to see what various AI models would give me. I thought it would be interesting to compare and contrast how different AI tools process differently. I have only used OpenAI's ChatGPT and Anthropic's Claude (MidJourney in Discord as well), but I didn't want to use other AIs that I wasn't familiar with. Even for everyday tasks, I rarely use image generation features. The image generation features sparked much conversation at my school, and just the process of waiting for an image to be created stresses me for some reason. 
 
 ## Day 7 (2026/07/08)
 
@@ -156,7 +158,7 @@ OpenAI ChatGPT based on GPT-5.5 and Anthropic Claude Sonnet 5 (conversation mode
 Black screen image error.
 
 <img height="260" alt="Image" src="./assets/7_2.png" /> <img height="260" alt="Image" src="./assets/7_3.png" /> 
-ComfyUI run via Terminal and Comfy Desktop respectively. 
+ComfyUI run via Terminal and Comfy Desktop, respectively. 
 
 ## Day 8 (2026/07/09)
 
