@@ -177,6 +177,8 @@ to:
 
 ## Day 8 (2026/07/09)
 
+<img height="200" alt="Image" src="./assets/8.png" /> <img height="200" alt="Image" src="./assets/8_2.png" /> <img height="200" alt="Image" src="./assets/8_3.png" /> <img height="200" alt="Image" src="./assets/8_4.png" /> <img height="200" alt="Image" src="./assets/8_5.png" /> 
+
 ## Day 9 (2026/07/13)
 
 ## Day 10 (2026/07/14)
