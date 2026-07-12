@@ -109,9 +109,9 @@ Anthropic Claude Sonnet 5 (conversation model)
 
 ## Day 7 (2026/07/08)
 
-<img height="300" alt="Image" src="./assets/7.png" /> <img height="300" alt="Image" src="./assets/7_4.png" />
+<img height="280" alt="Image" src="./assets/7.png" /> <img height="280" alt="Image" src="./assets/7_4.png" />
 
-<img height="300" alt="Image" src="./assets/7_2.png" /> <img height="300" alt="Image" src="./assets/7_3.png" /> 
+<img height="280" alt="Image" src="./assets/7_2.png" /> <img height="280" alt="Image" src="./assets/7_3.png" /> 
 
 There are user ethics, designer ethics, but can we “teach” computer ethics? 
 
