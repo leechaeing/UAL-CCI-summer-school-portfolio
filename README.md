@@ -99,9 +99,12 @@ A thought I had since the first session: What would be a difference between moti
 
 <img height="150" alt="Image" src="./assets/6.png" /> <img height="150" alt="Image" src="./assets/6_2.png" /> <img height="150" alt="Image" src="./assets/6_3.png" /> <img height="150" alt="Image" src="./assets/6_4.png" /> <img height="150" alt="Image" src="./assets/6_5.png" /> In-class explorations.
 
-<img height="250" alt="Image" src="./assets/6_6.png" /> <img height="250" alt="Image" src="./assets/6_7.png" />
+<img height="220" alt="Image" src="./assets/6_6.png" /> <img height="220" alt="Image" src="./assets/6_7.png" />
 
-<img height="250" alt="Image" src="./assets/6_8.png" /> <img height="250" alt="Image" src="./assets/6_10.png" /> 
+<img height="300" alt="Image" src="./assets/6_8.png" /> <img height="300" alt="Image" src="./assets/6_10.png" /> 
+
+OpenAI ChatGPT based on GPT-5.5
+Anthropic Claude Sonnet 5 (conversation model)
 
 
 ## Day 7 (2026/07/08)
