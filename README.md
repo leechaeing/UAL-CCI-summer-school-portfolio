@@ -177,7 +177,36 @@ to:
 
 ## Day 8 (2026/07/09)
 
-Lab 1: 
+Lab 1: CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) 
+
+https://en.wikipedia.org/wiki/CAPTCHA 
+- Type of challenge-response Turing test 
+- Coined in 2003 by Luis von Ahn, Manuel Blum, Nicholas J. Hopper, John Langford 
+- Google’s reCAPTCHA and Intuition Machine’s hCaptcha majorly used 
+- Prevent bots from using services meant for humans, denial-of-service attacks, distortion of collected usage information, etc.
+- Based on reading text or images 
+- Blind, visually impaired users 
+
+https://www.cloudflare.com/learning/bots/how-captchas-work/
+- CAPTCHAS designed to block automated bots while they themselves are automated 
+- Distorted letters that bots are not likely able to identify —> advanced bots use machine learning to identify letters 
+- reCAPTCHA: free service offered by Google to replace traditional CAPTCHAS
+- Types of reCAPTCHA: image recognition, checkbox, general user behavior assessment requiring no interaction 
+- Image recognition: 9 to 16 square images from same large image or all different requiring user to identify certain objects 
+- drawbacks: bad user experience, visually impaired individuals, can be fooled by bots 
+
+https://developers.google.com/recaptcha
+- reCAPTCHA v3
+- Doesn’t interrupt users
+- Score system to identify what bots are doing and where within the website 
+
+https://www.ibm.com/think/topics/captcha
+- Turing test; Alan Turing, created to test machine’s ability to exhibit human intelligence 
+- von Ahn and Blum create program that: generates random string of text, generates distorted image of that text, presents image to user, asks user to enter text into form field, require user to submit entry by clicking a checkbox next to the phrase “I am not a robot.” 
+- reCAPTCHA v1; images taken from Google Street View; prove humanity by identifying real-world objects like streetlights and taxicabs 
+- reCAPTCHA v2: replacing text and image-based challenges with simple checkbox stating “I am not a robot; tracks mouse movements as user clicks the box 
+- reCAPTCHA v3; 
+- Disadvantages: inconvenient user experience, accessibility challenges, reduced conversion rates, bot AI’s ability to defeat new CAPTCHA, privacy concern 
 
 <img height="180" alt="Image" src="./assets/8.png" /> <img height="180" alt="Image" src="./assets/8_2.png" /> <img height="180" alt="Image" src="./assets/8_3.png" /> <img height="180" alt="Image" src="./assets/8_4.png" /> <img height="350" alt="Image" src="./assets/8_5.png" /> 
 
