@@ -177,7 +177,9 @@ to:
 
 ## Day 8 (2026/07/09)
 
-<img height="180" alt="Image" src="./assets/8.png" /> <img height="180" alt="Image" src="./assets/8_2.png" /> <img height="180" alt="Image" src="./assets/8_3.png" /> <img height="180" alt="Image" src="./assets/8_4.png" /> <img height="250" alt="Image" src="./assets/8_5.png" /> 
+Lab 1: 
+
+<img height="180" alt="Image" src="./assets/8.png" /> <img height="180" alt="Image" src="./assets/8_2.png" /> <img height="180" alt="Image" src="./assets/8_3.png" /> <img height="180" alt="Image" src="./assets/8_4.png" /> <img height="350" alt="Image" src="./assets/8_5.png" /> 
 
 Lab 2: I am not too sure if I completed this task correctly due to my absence. I duplicated and used the example in the class GitHub to code online in p5.js.0.9.0
 
