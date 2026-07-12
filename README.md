@@ -157,8 +157,23 @@ I used the same prompts to see what various AI models would give me. I thought i
 <img height="260" alt="Image" src="./assets/7.png" /> <img height="260" alt="Image" src="./assets/7_4.png" />
 Black screen image error.
 
+I had an error that would only give me black screen images. It was definitely not a hardware problem, and Marysia suggested I manually download ComfyUI and open it through the terminal. This also had the same error initially. 
+
 <img height="260" alt="Image" src="./assets/7_2.png" /> <img height="260" alt="Image" src="./assets/7_3.png" /> 
-ComfyUI run via Terminal and Comfy Desktop, respectively. 
+ComfyUI via Terminal and Comfy Desktop, respectively.
+
+Using the CPU to open the manually downloaded ComfyUI worked:
+
+cd ComfyUI
+python main.py --cpu
+
+However, I wanted to solve the Comfy Desktop error because launching via the Terminal was a bit troublesome. And honestly, I am not too comfortable using the Terminal. I had to use an AI tool because the method I found online required me to find a setting that was not easy to find with the version of Comfy Desktop right now: Server Config. I asked Anthropic's Claude how to locate things through the Terminal and fixed the desktop app error by changing:
+
+"launchArgs": "--enable-manager, 
+
+to: 
+
+"launchArgs": "--enable-manager --fp32-vae --force-fp32",
 
 ## Day 8 (2026/07/09)
 
