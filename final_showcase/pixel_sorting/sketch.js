@@ -33,6 +33,9 @@ function draw() {
         }
 
         img.updatePixels();
+        //img.filter(POSTERIZE, 4);
+        // img.filter(BLUR, 3);
+        // img.filter(INVERT);
         image(img, 0, 0);
     }
 
