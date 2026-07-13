@@ -24,7 +24,7 @@ I altered the owl_demo sketch so that the owls would appear and disappear in a h
 
 <img height="300" alt="" src="./assets/2_4.png" /> 
 
-Lab 1: Again, I was playing around with the coordinates to create an interesting binary pattern. The [dust characters](https://en.wikipedia.org/wiki/Susuwatari) were originally simple circles. However, after learning a [star();](https://archive.p5js.org/examples/form-star.html) function, I replaced the circles to better depict the actual characters.
+Lab 1: Again, I was playing around with the coordinates to create an interesting binary pattern. The [dust characters](https://en.wikipedia.org/wiki/Susuwatari) were originally simple circles. However, after learning a [star();](https://archive.p5js.org/examples/form-star.html) function, I replaced the circles to better depict the actual characters' furry texture.
 
 <img height="400" alt="" src="./assets/2.png" /> <img height="400" alt="" src="./assets/2_2.png" />
 
@@ -37,7 +37,7 @@ Lab 3: My main goal was to utilize the grid and translate(); features. In an att
 
 I was inspired by an artwork, the [*Stress Inventory* by Laurie Frick](https://www.lauriefrick.com/stress-inventory). Combining skills from the previous two days, I wanted to utilize draw(); polygons, and practice organizing my drawing with grids. However, the process was much more complicated than what I had expected. 
 
-The data CSV I chose (water quality) to work with had some missing data at random places. I worked with an AI tool to come up with a code that would identify these holes so that my code would check for valid data before use. Figuring this part out took the longest, as the other processes, like establishing a grid and drawing circles, were familiar actions. 
+The data CSV I chose (water quality) to work with had some missing data at random places. I worked with an AI tool to come up with a code that would identify these "holes" so that my code would check for valid data before use. Figuring this part out took the longest, as the other processes, like establishing a grid and drawing circles, were familiar actions. 
 
 Larger red circles mean higher pH values. We could try to interpret this: too acidic or too alkaline water wouldn’t be ideal for aquatic life. Thus, circles not too big or not too small would indicate healthier water. 
 
@@ -47,7 +47,7 @@ The yellow circles; however, are based on salinity values. We cannot tell much a
 
 This drawing wasn’t really made to be informative. But, looking at it for long enough, it kind of feels like an optical mixing drawing. 
 
-I also uploaded all my screenshots today and came across errors in the Terminal: some diverging branch problems. I am saving the codes I used for myself. 
+I also uploaded all my screenshots today and came across errors in the Terminal: some diverging branch problems. I am saving the codes I used here for myself. 
 
 git pull origin main --no-rebase
 :wq
@@ -208,13 +208,16 @@ https://www.ibm.com/think/topics/captcha
 - reCAPTCHA v3; 
 - Disadvantages: inconvenient user experience, accessibility challenges, reduced conversion rates, bot AI’s ability to defeat new CAPTCHA, privacy concern 
 
+I wanted to make an interactive project based on CAPTCHA. I spent some time researching CAPTCHA: the purpose, the different types of CAPTCHA, how it has developed, and the disadvantages or problems related to it. 
+
 <img height="180" alt="Image" src="./assets/8.png" /> <img height="180" alt="Image" src="./assets/8_2.png" /> <img height="180" alt="Image" src="./assets/8_3.png" /> <img height="180" alt="Image" src="./assets/8_4.png" /> <img height="350" alt="Image" src="./assets/8_5.png" /> 
 
 Lab 2: I am not too sure if I completed this task correctly due to my absence. I duplicated and used the example in the class GitHub to code online in p5.js.0.9.0
 
-[My code](https://editor.p5js.org/leechaeing/sketches/2It4vko5e) uses [the model](https://teachablemachine.withgoogle.com/models/MfoGVr4Ev/) I trained in Teachable Machine. I found very short 5-to 8-second sounds on [Pixabay](https://pixabay.com/sound-effects/) to code with my model. I trained a similar model before using gestures one, two, and three. This time, though, I added more images in quantity and variety for data. Similar to before, this model had trouble identifying one of the gestures: this time, three. Because I coded so that other sound files would stop once one of them started playing, the resulting sounds were glitchy and staccato-like. It reminded me of my experience exploring Infinite Drums: when I was moving my cursor randomly to find sounds.
+[My code](https://editor.p5js.org/leechaeing/sketches/2It4vko5e) uses [this model](https://teachablemachine.withgoogle.com/models/MfoGVr4Ev/) I trained in Teachable Machine. I found very short 5-to 8-second sounds on [Pixabay](https://pixabay.com/sound-effects/) to code with my model. I trained a similar model before using gestures one, two, and three. This time, though, I added more images in quantity and variety for data. Similar to before, this model had trouble identifying one of the gestures: this time, three. Because I coded so that other sound files would stop once one of them started playing, the resulting sounds were glitchy and staccato-like. It reminded me of my experience exploring Infinite Drums: when I was moving my cursor randomly to find sounds.
 
 ## Day 9 (2026/07/13)
+
 
 ## Day 10 (2026/07/14)
 
