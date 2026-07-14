@@ -97,7 +97,7 @@ A thought I had since the first session: What would be a difference between moti
 
 ## Day 6 (2026/07/07)
 
-Listening to the lecture I had a question in mind: there are different ethics for different positions like user ethics, designer ethics, etc. But, can we “teach” computer ethics? Would there be computer ethics?
+Listening to the lecture I had a question in mind: there are different ethics for different positions like user ethics, designer ethics, etc. But, can we “teach” computer ethics? Would there be computer ethics (ethics that computers must follow)?
 
 <img height="150" alt="" src="./assets/6.png" /> <img height="150" alt="" src="./assets/6_2.png" /> <img height="150" alt="" src="./assets/6_3.png" /> <img height="150" alt="" src="./assets/6_4.png" /> <img height="150" alt="" src="./assets/6_5.png" /> 
 
@@ -123,7 +123,7 @@ Teachable machine
 - Preload to ensure everything OK before setup     
 
 <img height="230" alt="" src="./assets/6_6.png" /> <img height="230" alt="" src="./assets/6_7.png" /> 
-My slide from the [Group Presentation](https://canva.link/tvf8i7b7sfbemqp).
+My slides from the [Group Presentation](https://canva.link/tvf8i7b7sfbemqp).
 
 Notes from research: 
 
@@ -150,7 +150,7 @@ e.g., Partner with ThroughLine for self-harm and mental health situations
 <img height="340" alt="" src="./assets/6_8.png" /> <img height="340" alt="" src="./assets/6_10.png" /> 
 OpenAI ChatGPT based on GPT-5.5 and Anthropic Claude Sonnet 5 (conversation model) used to generate the images, respectively.  
 
-I used the same prompts to see what various AI models would give me. I thought it would be interesting to compare and contrast how different AI tools process differently. I have only used OpenAI's ChatGPT and Anthropic's Claude (MidJourney in Discord as well), but I didn't want to use other AIs that I wasn't familiar with. Even for everyday tasks, I rarely use image generation features. The image generation features sparked much conversation at my school, and just the process of waiting for an image to be created stresses me for some reason. 
+I used the same prompts to see what various AI models would give me. I thought it would be interesting to compare and contrast how different AI tools process differently. I have only used OpenAI's ChatGPT and Anthropic's Claude (MidJourney in Discord as well), but I didn't want to use other AIs that I wasn't familiar with. Even for everyday tasks, I rarely use image generation features. The image generation features sparked much conversation at my school, and just the process of waiting for an image to be created stresses me for some reason. Personally, I prefer the diagram Claude generated. I have never been a fan of realism; thus, whether it'd be a human or computer producing a realistic image, it is not my favorite. I purposefully wrote "college dorm" to hint at the atmosphere, but I don't think it was communicated effectively. The image feels too cozy, warm, and home-like. By college dorm I meant something more cold and fleeting. The furnitures do not belong to me and I have little control over interior. I wonder what ChatGPT took in by "college dorm". 
 
 ## Day 7 (2026/07/08)
 
