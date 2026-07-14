@@ -225,18 +225,13 @@ Lab 2: I am not too sure if I completed this task correctly due to my absence. I
 
 ## Day 9 (2026/07/13)
 
+I spent the day looking at API and image distortion options. I decided to go with Idea 2 as the general concept: one CAPTCHA with possible object options. To let the user choose the topic for image recognition, I would need an API to retrieve different images from. Claude suggested Pixabay, and I looked into Pinterest with Marysia; however, they all seem pretty difficult to use. For now, I am experimenting with downloaded images in my local folder. 
+
+To make my own filter, or image distortion, I was exploring a few different options like [pixel sorting](https://editor.p5js.org/leechaeing/sketches/r7v9spl8b), [glitch art](https://editor.p5js.org/sjanicki3/sketches/cYMKFGtjX), and [glitch shader](https://editor.p5js.org/BarneyCodes/sketches/XUer03ShM). All these examples I found were in older p5.js versions, so I also spent some time both moving it to Visual Studio Code referencing previous in class works for async/await functions and experimenting with the images I was gonna use. Also, I wanted to run the code and final project in the new p5.js version because I want to reference back to it later on in my studies and possibly add to it as I advance my coding skills. 
+
 <img height="300" alt="" src="./assets/9.png"> <img height="300" alt="" src="./assets/9_2.png">
 
-Finding resources for api, distort filter
-I found examples in p5.js but only in older versions; spent some time moving it to Visual Studio Code (referencing previous in class works for async, await) and experimenting with the images I was gonna use; I want to run it in the newer version because I want to reference back to it later in my studies and possibly add to it as I advance my coding skills 
-https://kimasendorf.com/
-https://github.com/kimasendorf/ASDFPixelSort/blob/master/ASDFPixelSort.pde 
-
-Api resources; Pinterest, Claude: pixabay, images in local folder 
-
-Already slow; found out there aren’t really limits to number of images in folder, just slow; but distortion gets less obvious with less pixels…. 
-
-https://editor.p5js.org/leechaeing/sketches/r7v9spl8b 
+In Adobe's Illustrator, I recreated the final layout to create my own interface graphics. 
 
 https://glitchology.com/pixel-sorting/
 - Pixel sorting foundational glitch art technique
@@ -245,6 +240,11 @@ https://glitchology.com/pixel-sorting/
 - Intervals used instead of whole row or column; starts and ends when pixels exceed a certain threshold 
 - Each interval has its pixels extracted, computed, and sorted 
 - Can sort by brightness, hue, or saturation 
+
+https://kimasendorf.com/
+https://github.com/kimasendorf/ASDFPixelSort/blob/master/ASDFPixelSort.pde 
+
+Already slow; found out there aren’t really limits to number of images in folder, just slow; but distortion gets less obvious with less pixels…. 
 
 ## Day 10 (2026/07/14)
 
