@@ -79,7 +79,7 @@ A series of creative applications of AI. A brief review of my exploration, corre
 - [Splash Canvas](https://artsandculture.google.com/experiment/splash-canvas/vQFCtQB7FDnYkA?hl=en): Here I tried to draw until I kind of agreed with what the squids were guessing. I appreciate how they tried to find meaning behind my thoughtless drawings.
 - [Infinite Drum Machine](https://experiments.withgoogle.com/ai/drum-machine/view/): It felt like an anything-can-be-music example, something that used to be a trend back in the day. The mapped-out interface was interesting; again, I wonder what patterns the AI noticed to group the sounds like that.
 - [ILA: Recurse Mix](https://infinite.mothquantum.com/): I was actually not too sure what functions were going on except that the image was being distorted with square-like blurs appearing what seems to be randomly. It reminded me of some grouping method that is used to recognize patterns within an image to group pixels and reduce file size.
-- [Suno](https://www.suno.com): I see great opportunities within this AI tool: those who don't have the money to buy music equipment or the skills to create music from scratch could benefit from SUNO. I used it to create [something](https://suno.com/s/oyCoTEfCzdEFYdqZ) that sounds similar to what I have been listening to on loop recently, as the Spotify magic suggestions didn't do the job. Above are the pros, I anticipate, as there has been controversy regarding AI music with the trend of "GG EZ" by M.Sasuke.
+- [Suno](https://www.suno.com): I see great opportunities within this AI tool: those who don't have the money to buy music equipment or the skills to create music from scratch could benefit from SUNO. I used it to create [something](https://suno.com/s/oyCoTEfCzdEFYdqZ) that sounds similar to what I have been listening to on loop recently, as the Spotify magic suggestions didn't do the job. Above are the pros, I anticipate with AI music, as there has been controversy regarding it with the trend of "GG EZ" by M.Sasuke.
 - [Emoji Scavenger](https://archive.google/emojiscavengerhunt/): I found the miscommunication quite funny. Similar to how the Little Prince saw a snake swallowing an elephant instead of a hat, the guesses made by the AI make me wonder exactly what pattern or form made them think that. It felt like interacting with someone from a totally different background who does not speak any of the languages I speak. 
 - [Teachable Machine](https://teachablemachine.withgoogle.com/): That I can make a personalized model excites me, as I have seen recent young artists using image detectors. For my experiment, though, I found it intriguing that the model fails to guess number two the most when I had fed it more images of two.
 - [Even Stranger Things](https://evenstranger.pw/): Nothing much happened except classification and the same filter or graphic being placed on top of the images I uploaded.
@@ -103,22 +103,22 @@ Listening to the lecture I had a question in mind: there are different ethics fo
 
 In-class explorations: 
 
-doodleNet
+[doodleNet](https://editor.p5js.org/ima_ml/sketches/0KtSHucVH)
 - Classifier variable to bring in DoodleNet Classification ml5 
 - resultsP variable to communicate what it has classified and how sure it is 
 
-imageClassifier_webcam
+[imageClassifier_webcam](https://editor.p5js.org/ml5/sketches/K0sjaEO19)
 - Classifier variable to bring in the ml5
 - Video variable to use webcam 
 - Label variable to communicate with code via text 
 - Video becomes input and label shows output (what ml5 reads) 
 
-Drag and drop 
+[Drag and drop](https://editor.p5js.org/codingtrain/sketches/v1sAlvSHR)
 - Classifier variable to bring in 
 - Img variable for image input 
 - Label and confidence variable for output and communication 
 
-Teachable machine 
+[Teachable machine](https://editor.p5js.org/ml5/sketches/VvGXajA36)
 - Url + model.json
 - Preload to ensure everything OK before setup     
 
