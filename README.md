@@ -177,7 +177,7 @@ to:
 
 ## Day 8 (2026/07/09)
 
-Lab 1: CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) 
+Lab 1: [CAPTCHA](http://www.captcha.net/) (Completely Automated Public Turing test to tell Computers and Humans Apart)
 
 https://en.wikipedia.org/wiki/CAPTCHA 
 - Type of challenge-response Turing test 
@@ -210,7 +210,12 @@ https://www.ibm.com/think/topics/captcha
 
 I wanted to make an interactive project based on CAPTCHA. I spent some time researching CAPTCHA: the purpose, the different types of CAPTCHA, how it has developed, and the disadvantages or problems related to it. 
 
-<img height="300" alt="" src="./assets/8_6.jpeg"> <img height="300" alt="" src="./assets/8_7.jpeg">
+<img height="320" alt="" src="./assets/8_6.jpeg"> <img height="320" alt="" src="./assets/8_7.jpeg">
+
+Above are sketchbook entries of brainstorming and drawing thumbsnails. I was largely inspired by the lectures regarding how computers "see" and process images. I came up with three possible projects: 
+1. A series of CAPTCHAs with images getting more and more distorted as you go
+2. Text field and mouse interaction so that users can designate the object for image recognition
+3. A CAPTCHA with image pixels scattering with mouse movement 
 
 <img height="180" alt="" src="./assets/8.png" /> <img height="180" alt="" src="./assets/8_2.png" /> <img height="180" alt="" src="./assets/8_3.png" /> <img height="180" alt="" src="./assets/8_4.png" /> <img height="350" alt="" src="./assets/8_5.png" /> 
 
@@ -221,6 +226,25 @@ Lab 2: I am not too sure if I completed this task correctly due to my absence. I
 ## Day 9 (2026/07/13)
 
 <img height="300" alt="" src="./assets/9.png"> <img height="300" alt="" src="./assets/9_2.png">
+
+Finding resources for api, distort filter
+I found examples in p5.js but only in older versions; spent some time moving it to Visual Studio Code (referencing previous in class works for async, await) and experimenting with the images I was gonna use; I want to run it in the newer version because I want to reference back to it later in my studies and possibly add to it as I advance my coding skills 
+https://kimasendorf.com/
+https://github.com/kimasendorf/ASDFPixelSort/blob/master/ASDFPixelSort.pde 
+
+Api resources; Pinterest, Claude: pixabay, images in local folder 
+
+Already slow; found out there aren’t really limits to number of images in folder, just slow; but distortion gets less obvious with less pixels…. 
+
+https://editor.p5js.org/leechaeing/sketches/r7v9spl8b 
+
+https://glitchology.com/pixel-sorting/
+- Pixel sorting foundational glitch art technique
+- Image-altering algorithm that uses brightness, hue, or saturation to reorder pixels 
+- Popularized by Kim Asendorf, who sorts twice: vertically then horizontally 
+- Intervals used instead of whole row or column; starts and ends when pixels exceed a certain threshold 
+- Each interval has its pixels extracted, computed, and sorted 
+- Can sort by brightness, hue, or saturation 
 
 ## Day 10 (2026/07/14)
 
