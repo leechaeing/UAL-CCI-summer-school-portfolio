@@ -33,7 +33,7 @@ Lab 3: My main goal was to utilize the grid and translate(); features. In an att
 <img height="400" alt="" src="./assets/2_7.png" /> <img height="400" alt="" src="./assets/2_8.png" />
 
 ## Day 3 (2026/07/01)
-<img height="410" alt="Image" src="./assets/3.png" /> <img height="410" alt="" src="./assets/3_2.png" /> 
+<img height="410" alt="" src="./assets/3.png" /> <img height="410" alt="" src="./assets/3_2.png" /> 
 
 I was inspired by an artwork, the [*Stress Inventory* by Laurie Frick](https://www.lauriefrick.com/stress-inventory). Combining skills from the previous two days, I wanted to utilize draw(); polygons, and practice organizing my drawing with grids. However, the process was much more complicated than what I had expected. 
 
@@ -57,21 +57,21 @@ git push origin main
 
 Lab 1: In class, I started by figuring out how to load different images so the user can interact to control which photos are displayed. I had a basic code that loaded the image files at random places and a drawing tool to decorate the collage. 
 
-<img height="235" alt="Image" src="./assets/4_3.png" /> <img height="235" alt="" src="./assets/4_4.png" />
-<img height="410" alt="Image" src="./assets/4.png" /> <img height="410" alt="" src="./assets/4_2.png" />
+<img height="235" alt="" src="./assets/4_3.png" /> <img height="235" alt="" src="./assets/4_4.png" />
+<img height="410" alt="" src="./assets/4.png" /> <img height="410" alt="" src="./assets/4_2.png" />
 *Self-taken photos used*
 
 Lab 1: I edited the image files so they would look more like a collage when put together. Keeping the drawing tool and random location feature, I added a randomSize(); feature to make the picture more interesting. The bubbles were inspired by content I found online: a code Google Gemini summarized. However, there were many functions that I didn’t know of, including class, constructor, and float. The code is included in my Day 4 folder named bubble_from_online. Again, I didn’t want to work with an AI-produced code that I cannot follow along with; I did, however, learn about an opacity option in fill(); 
 
-<img height="300" alt="Image" src="./assets/4_5.png" /> 
+<img height="300" alt="" src="./assets/4_5.png" /> 
 
 Lab 2: 
 
 ## Day 5 (2026/07/06)
 
-<img height="200" alt="Image" src="./assets/5.png" /> <img height="200" alt="Image" src="./assets/5_2.png" /> <img height="200" alt="Image" src="./assets/5_8.png" /> 
-<img height="220" alt="Image" src="./assets/5_3.png" /> <img height="220" alt="Image" src="./assets/5_4.png" /> 
-<img height="150" alt="Image" src="./assets/5_7.png" /> <img height="150" alt="Image" src="./assets/5_5.png" /> <img height="150" alt="Image" src="./assets/5_6.png" />  
+<img height="200" alt="" src="./assets/5.png" /> <img height="200" alt="" src="./assets/5_2.png" /> <img height="200" alt="" src="./assets/5_8.png" /> 
+<img height="220" alt="" src="./assets/5_3.png" /> <img height="220" alt="" src="./assets/5_4.png" /> 
+<img height="150" alt="" src="./assets/5_7.png" /> <img height="150" alt="" src="./assets/5_5.png" /> <img height="150" alt="" src="./assets/5_6.png" />  
 
 A series of creative applications of AI. A brief review of my exploration, corresponding to the order of screenshots.
 
@@ -86,7 +86,7 @@ A series of creative applications of AI. A brief review of my exploration, corre
 
 A thought has always bothered me since I declared Art and Computation as my major. Whatever I make, it is already on the internet and usually in a better form. I am a beginner, so it makes sense: everyone starts with color charts and shading polygons. Because we have been practicing basic p5.js, making projects without much story or intent, I haven't been a fan of what I have made so far. This project, however, made me feel like I was making something more meaningful as I could add more context behind my code.
 
-<img height="150" alt="Image" src="./assets/5_9.png" /> <img height="150" alt="Image" src="./assets/5_10.png" /> 
+<img height="150" alt="" src="./assets/5_9.png" /> <img height="150" alt="" src="./assets/5_10.png" /> 
 [Online Editor](https://editor.p5js.org/leechaeing/sketches/v_rZYQ75U)
 
 Noonchi is a Korean word that reflects much culture, making it hard to translate into other languages. I am someone who uses a lot of noonchi to detect someone's mood. It may be disrespectful to declare someone's feelings; however, we do this to avoid conflict and care for another. Text and screens act as barriers, making it harder to guess others' moods: nuance, tone, etc., are also important factors to consider. I made a filter for users to announce their moods. I only have two moods as of now: sad and happy. By clicking the sad button, users can control the number of tears, showing the depth of their feelings. The happy button resets the tear counter and tracks the nose location to draw stars at random locations. There is also a textbox so that users can communicate their states.
@@ -99,7 +99,7 @@ A thought I had since the first session: What would be a difference between moti
 
 Listening to the lecture I had a question in mind: there are different ethics for different positions like user ethics, designer ethics, etc. But, can we “teach” computer ethics? Would there be computer ethics?
 
-<img height="150" alt="Image" src="./assets/6.png" /> <img height="150" alt="Image" src="./assets/6_2.png" /> <img height="150" alt="Image" src="./assets/6_3.png" /> <img height="150" alt="Image" src="./assets/6_4.png" /> <img height="150" alt="Image" src="./assets/6_5.png" /> 
+<img height="150" alt="" src="./assets/6.png" /> <img height="150" alt="" src="./assets/6_2.png" /> <img height="150" alt="" src="./assets/6_3.png" /> <img height="150" alt="" src="./assets/6_4.png" /> <img height="150" alt="" src="./assets/6_5.png" /> 
 
 In-class explorations: 
 
@@ -122,7 +122,7 @@ Teachable machine
 - Url + model.json
 - Preload to ensure everything OK before setup     
 
-<img height="230" alt="Image" src="./assets/6_6.png" /> <img height="230" alt="Image" src="./assets/6_7.png" /> 
+<img height="230" alt="" src="./assets/6_6.png" /> <img height="230" alt="" src="./assets/6_7.png" /> 
 My slide from the [Group Presentation](https://canva.link/tvf8i7b7sfbemqp).
 
 Notes from research: 
@@ -147,19 +147,19 @@ e.g., Partner with ThroughLine for self-harm and mental health situations
 - Lack of exposure to protecting privacy 
 -  Lack of environmental issues
 
-<img height="340" alt="Image" src="./assets/6_8.png" /> <img height="340" alt="Image" src="./assets/6_10.png" /> 
+<img height="340" alt="" src="./assets/6_8.png" /> <img height="340" alt="" src="./assets/6_10.png" /> 
 OpenAI ChatGPT based on GPT-5.5 and Anthropic Claude Sonnet 5 (conversation model) used to generate the images, respectively.  
 
 I used the same prompts to see what various AI models would give me. I thought it would be interesting to compare and contrast how different AI tools process differently. I have only used OpenAI's ChatGPT and Anthropic's Claude (MidJourney in Discord as well), but I didn't want to use other AIs that I wasn't familiar with. Even for everyday tasks, I rarely use image generation features. The image generation features sparked much conversation at my school, and just the process of waiting for an image to be created stresses me for some reason. 
 
 ## Day 7 (2026/07/08)
 
-<img height="260" alt="Image" src="./assets/7.png" /> <img height="260" alt="Image" src="./assets/7_4.png" />
+<img height="260" alt="" src="./assets/7.png" /> <img height="260" alt="" src="./assets/7_4.png" />
 Black screen image error.
 
 I had an error that would only give me black screen images. It was definitely not a hardware problem, and Marysia suggested I manually download ComfyUI and open it through the terminal. This also had the same error initially. 
 
-<img height="260" alt="Image" src="./assets/7_2.png" /> <img height="260" alt="Image" src="./assets/7_3.png" /> 
+<img height="260" alt="" src="./assets/7_2.png" /> <img height="260" alt="" src="./assets/7_3.png" /> 
 ComfyUI via Terminal and Comfy Desktop, respectively.
 
 Using the CPU to open the manually downloaded ComfyUI worked:
@@ -210,7 +210,9 @@ https://www.ibm.com/think/topics/captcha
 
 I wanted to make an interactive project based on CAPTCHA. I spent some time researching CAPTCHA: the purpose, the different types of CAPTCHA, how it has developed, and the disadvantages or problems related to it. 
 
-<img height="180" alt="Image" src="./assets/8.png" /> <img height="180" alt="Image" src="./assets/8_2.png" /> <img height="180" alt="Image" src="./assets/8_3.png" /> <img height="180" alt="Image" src="./assets/8_4.png" /> <img height="350" alt="Image" src="./assets/8_5.png" /> 
+<img height="300" alt="" src="./assets/8_6.jpeg"> <img height="300" alt="" src="./assets/8_7.jpeg">
+
+<img height="180" alt="" src="./assets/8.png" /> <img height="180" alt="" src="./assets/8_2.png" /> <img height="180" alt="" src="./assets/8_3.png" /> <img height="180" alt="" src="./assets/8_4.png" /> <img height="350" alt="" src="./assets/8_5.png" /> 
 
 Lab 2: I am not too sure if I completed this task correctly due to my absence. I duplicated and used the example in the class GitHub to code online in p5.js.0.9.0
 
@@ -218,6 +220,7 @@ Lab 2: I am not too sure if I completed this task correctly due to my absence. I
 
 ## Day 9 (2026/07/13)
 
+<img height="300" alt="" src="./assets/9.png"> <img height="300" alt="" src="./assets/9_2.png">
 
 ## Day 10 (2026/07/14)
 
