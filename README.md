@@ -6,7 +6,7 @@ Daily Reflections by Amy (Eunjong) Lee
 
 Though it was my first time using Visual Studio Code, it wasn't too difficult to follow along since I had prior experience with Processing and was familiar with GitHub.
 
-Based on my one-day experience of Processing, from a workshop conducted by artist [Jiho Park](https://www.jishopark.net/), I wanted to try more advanced prompts to depict a personal story.
+Based on my one-day experience of Processing, from a workshop conducted by artist [Jiho Park](https://www.jihopark.net/), I wanted to try more advanced prompts to depict a personal story.
 
 I found a [rotateY();](https://beta.p5js.org/reference/p5/quad/) code that inspired me to create a kinetic portrait. I tend to switch up my makeup and style every day; thus, different people have told me that I look like different people. For example, friend A might say I look like celebrity X, while friend B might say I look like celebrity Y. I found it interesting that people realize various things within one face (me).
 
