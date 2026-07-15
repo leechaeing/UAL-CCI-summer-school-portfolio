@@ -54,6 +54,8 @@ let allImages = [];
 let currentImages = []; 
 let currentText; 
 
+let gridPositions = [];
+
 let sortingDone = false; 
 let sq = 130; 
 let move = sq + 5; 
@@ -133,8 +135,22 @@ async function setup() {
     skipButton.style('cursor', 'pointer');
     skipButton.mousePressed(skipImage);
 
+    img30.filter(BLUR, 10);
+
     allImages = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21, img22, img23, img24, img25, img26, img27, img28, img29, img30, img31, img32, img33, img34, img35, img36, img37];
     chooseImages(); 
+
+    gridPositions = [
+        { x: width / 2, y: height / 2 },                //center 
+        { x: width / 2, y: height / 2 + move },         //center bottom 
+        { x: width / 2, y: height / 2 - move },         //center top 
+        { x: width / 2 - move, y: height / 2 },         //right center 
+        { x: width / 2 - move, y: height / 2 - move },  //right top
+        { x: width / 2 - move, y: height / 2 + move },  //right bottom
+        { x: width / 2 + move, y: height / 2 },         //left center 
+        { x: width / 2 + move, y: height / 2 - move },  //left top
+        { x: width / 2 + move, y: height / 2 + move }   //left bottom
+    ];
 }
 
 function draw() {
@@ -144,17 +160,10 @@ function draw() {
         let images = currentImages;
         
         for(let i = 0; i < images.length; i++) {
-            img = images[i];
-            img.resize(140, 0);
-            img.loadPixels();
-
-            for(let x = 0; x < img.width; x++) {
-                sortColumn(x);
-            }
-
-            for(let y = 0; y < img.width; y++) {
-                sortRow(y);
-            }
+            sortImage(images[i]); 
+            // img = images[i];
+            // img.resize(140, 0);
+            // img.loadPixels();
 
             // for(let x = 0; x < img.width; x++) {
             //     sortColumn(x);
@@ -164,7 +173,15 @@ function draw() {
             //     sortRow(y);
             // }
 
-            img.updatePixels();
+            // for(let x = 0; x < img.width; x++) {
+            //     sortColumn(x);
+            // }
+
+            // for(let y = 0; y < img.width; y++) {
+            //     sortRow(y);
+            // }
+
+            // img.updatePixels();
             //img.filter(POSTERIZE, 4);
             //img.filter(BLUR, 5);
             // img.filter(INVERT);
@@ -187,7 +204,7 @@ function draw() {
 } 
 
 function sortColumn(x) {
-    let threshold = random(0, 50);
+    let threshold = map(sin(x * 0.15), -1, 1, 0, 30);
     let y = 0; 
     while (y < img.height) {
         while(y < img.height) {
@@ -195,9 +212,9 @@ function sortColumn(x) {
             let r = img.pixels[index + 0];
             let g = img.pixels[index + 1];
             let b = img.pixels[index + 2];
-            let bn = brightness(color(r, g, b));
+            let hu = hue(color(r, g, b)); //changed from original code's brightness to hue
 
-            if(bn > threshold) { //bn < threshold to switch to dark mode
+            if(hu > threshold) { //bn < threshold to switch to dark mode
                 break; 
             }
             y++; 
@@ -209,9 +226,9 @@ function sortColumn(x) {
             let r = img.pixels[index + 0];
             let g = img.pixels[index + 1];
             let b = img.pixels[index + 2];
-            let bn = brightness(color(r, g, b));
+            let hu = hue(color(r, g, b));
 
-            if(bn <= threshold) { //bn >= threshold for dark mode
+            if(hu <= threshold) { //bn >= threshold for dark mode
                 break; 
             }
             y++; 
@@ -228,7 +245,7 @@ function sortColumn(x) {
                 sortingArray.push(color(r, g, b));
             }
 
-            sortingArray.sort((a, b) => brightness(b) - brightness(a)); //sorts from light to dark
+            sortingArray.sort((a, b) => hue(b) - hue(a)); //sorts from light to dark
             
             for(let i = startY; i <= endY; i++) {
                 let index = (x + i*img.width) *4;
@@ -245,7 +262,7 @@ function sortColumn(x) {
 }
 
 function sortRow(y) {
-    let threshold = random(0, 30);
+    let threshold = map(cos(y * 0.15), -1, 1, 0, 30);
     let x = 0; 
     while (x < img.width) {
         while(x < img.width) {
@@ -253,9 +270,9 @@ function sortRow(y) {
             let r = img.pixels[index + 0];
             let g = img.pixels[index + 1];
             let b = img.pixels[index + 2];
-            let bn = brightness(color(r, g, b));
+            let hu = hue(color(r, g, b));
 
-            if(bn > threshold) { //bn < threshold to switch to dark mode
+            if(hu > threshold) { //bn < threshold to switch to dark mode
                 break; 
             }
             x++; 
@@ -267,9 +284,9 @@ function sortRow(y) {
             let r = img.pixels[index + 0];
             let g = img.pixels[index + 1];
             let b = img.pixels[index + 2];
-            let bn = brightness(color(r, g, b));
+            let hu = hue(color(r, g, b));
 
-            if(bn <= threshold) { //bn >= threshold for dark mode
+            if(hu <= threshold) { //bn >= threshold for dark mode
                 break; 
             }
             x++; 
@@ -286,7 +303,7 @@ function sortRow(y) {
                 sortingArray.push(color(r, g, b));
             }
 
-            sortingArray.sort((a, b) => brightness(a) - brightness(b)); //sorts from  dark to light here 
+            sortingArray.sort((a, b) => hue(a) - hue(b)); //sorts from  dark to light here 
             
             for(let i = startX; i <= endX; i++) {
                 let index = (x + i*img.width) *4;
@@ -302,6 +319,22 @@ function sortRow(y) {
 
 }
 
+function sortImage(imageToSort) {
+    img = imageToSort; 
+    img.resize(140, 0);
+    img.loadPixels(); 
+
+    for(let x = 0; x < img.width; x++) {
+        sortColumn(x);
+     }
+
+    for(let y = 0; y < img.width; y++) {
+        sortRow(y);
+    }
+
+    img.updatePixels();
+}
+
 function skipImage() {
     chooseImages(); 
     sortingDone = false; 
@@ -313,4 +346,30 @@ function skipImage() {
 function chooseImages() {
     let shuffled = shuffle(allImages); //https://p5js.org/reference/p5/shuffle/
     currentImages = shuffled.slice(0, 9); 
+}
+
+function mousePressed() {
+    for(let i = 0; i <gridPositions.length; i++) {
+        let pos = gridPositions[i];
+        let left = pos.x - sq / 2; 
+        let right = pos.x + sq / 2; 
+        let top = pos.y - sq / 2; 
+        let bottom = pos.y + sq / 2; 
+
+        if(mouseX > left && mouseX < right && mouseY > top && mouseY < bottom) {
+            newImage(i); 
+        }
+    }
+}
+
+function newImage(index) {
+    let newImg = random(allImages); 
+
+    while(currentImages.includes(newImg)) {
+        newImg = random(allImages); 
+    }
+
+    currentImages[index] = newImg; 
+    sortImage(currentImages[index]);
+
 }
