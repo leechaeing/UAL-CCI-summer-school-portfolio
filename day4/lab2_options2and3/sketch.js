@@ -136,7 +136,7 @@ function draw() {
 }
 
 function mousePressed() {
-  let canvasPos = drawingContext.canvas.getBoundingClientRect();
+  let canvasPos = drawingContext.canvas.getBoundingClientRect(); 
   let pageX = canvasPos.left + mouseX;
   let pageY = canvasPos.top + mouseY; 
 
