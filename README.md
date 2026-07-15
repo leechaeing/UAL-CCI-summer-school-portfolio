@@ -65,16 +65,11 @@ Lab 1: I edited the image files so they would look more like a collage when put 
 
 <img height="250" alt="" src="./assets/4_6.png" /> <img height="250" alt="" src="./assets/4_5.png" />
 
-Lab 2: I chose to do option 2 (interactive sketch to customize video capture) and 3 (artwork using interface elements). I ended up combining the two; above are the images of option 2 and option 2 & 3 respectively. 
+Lab 2: I chose to do option 2 (interactive sketch to customize video capture) and 3 (artwork using interface elements). I ended up combining the two; above are the images of option 2 and options 2 & 3, respectively.
 
-I wanted to recreate a ["purikura"](https://www.google.com/search?sa=X&sca_esv=b95d1611b6ab2c1b&sxsrf=APpeQnuUKlUyq9JiQPtbJTvZTG5K3jPUfw:1784120675792&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYQMcE-5Z1cZx9qhIV-bv5qjakEQzQ2rQETVWf0onHvHvWqp9gBH5IlpsFB5n0W78lW8YYRUjJEqggSF7Xnv4rwPcbAjWFuBUAyCF_uInLgltHODWRC4Mc5Ce1uQyJsCQxLUCQZhN7pYHRCVWDvNrkbIWG3dQQ&q=purikura&ved=2ahUKEwj2tPe439SVAxUndUEAHXryAZAQtKgLegQIFxAB&biw=1728&bih=992&dpr=2), which means "print club", an interactive photo booth very popular in Japan. The purikura is famous for its filter and decoration features allowing users to draw on their photos, ornate with stickers, and switch frames. Furthermore, purikura is infamous
+I wanted to recreate a ["purikura"](https://www.google.com/search?sa=X&sca_esv=b95d1611b6ab2c1b&sxsrf=APpeQnuUKlUyq9JiQPtbJTvZTG5K3jPUfw:1784120675792&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYQMcE-5Z1cZx9qhIV-bv5qjakEQzQ2rQETVWf0onHvHvWqp9gBH5IlpsFB5n0W78lW8YYRUjJEqggSF7Xnv4rwPcbAjWFuBUAyCF_uInLgltHODWRC4Mc5Ce1uQyJsCQxLUCQZhN7pYHRCVWDvNrkbIWG3dQQ&q=purikura&ved=2ahUKEwj2tPe439SVAxUndUEAHXryAZAQtKgLegQIFxAB&biw=1728&bih=992&dpr=2), which means "print club", an interactive photo booth very popular in Japan. The purikura is famous for its filter and decoration features, allowing users to draw on their photos, decorate them with stickers, and switch frames. Furthermore, purikura is infamous for the difficulty users experience when decorating their photos: the timer is very short, making it hard to complete or fully customize the photos. I tried to recreate this annoyance with the moving ears to also reference back to option 1: make an annoying drawing tool. I had some conceptual difficulties because my goal was to allude to the irritations of the real experience. The boundary between an intentionally annoying photo booth and just a poorly coded interface was hard to differentiate.
 
-Story: purikura inspired photo decorating interface; hard to complete and decorate “fully” or to one’s satisfaction because of time limit; made it annoying to decorate to allude to the real experience of taking Japanese print club photos 
-
-Combination of options 2 and 3. Tried to incorporate option 1 too (annoying [drawing] tool)
-
-Difficulty: making it intentionally annoying than just badly coded 
-
+In addition, I had some technical difficulties with option three. Everything was quite easy to code as I just had to follow what I did previously in option 2. However, unlike the heart and star stickers, which were downloaded images I loaded, the buttons, sliders, and toggle lists were interface elements that functioned a bit differently: they would freeze the webcam when activated and would not be placed at mouse x and y. I had to ask an AI tool how to fix this. It gave me a code with getBoundingClientRect();. This part was not coded by me, and I do not have a clear understanding of how it works. By adding this feature, though, I wanted to utilize interface elements as decorative elements just like the star and heart stickers. I personally find things like PCBs, diodes, capacitors, and other electronics material really beautiful. Thus, I combined option 3 so that users can use what seemed to be purely functional as visual elements.
 
 ## Day 5 (2026/07/06)
 
