@@ -63,7 +63,7 @@ Lab 1: In class, I started by figuring out how to load different images so the u
 
 Lab 1: I edited the image files so they would look more like a collage when put together. Keeping the drawing tool and random location feature, I added a randomSize(); feature to make the picture more interesting. The bubbles were inspired by content I found online: a code Google Gemini summarized. However, there were many functions that I didn’t know of, including class, constructor, and float. The code is included in my Day 4 folder named bubble_from_online. Again, I didn’t want to work with an AI-produced code that I cannot follow along with; I did, however, learn about an opacity option in fill(); 
 
-<img height="300" alt="" src="./assets/4_6.png" /> <img height="300" alt="" src="./assets/4_5.png" />
+<img height="270" alt="" src="./assets/4_6.png" /> <img height="270" alt="" src="./assets/4_5.png" />
 
 Lab 2: 
 
