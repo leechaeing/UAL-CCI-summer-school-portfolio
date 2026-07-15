@@ -1,5 +1,10 @@
-let bicycletext; 
+let bicycleText; 
+let chimneyText;
+let busText;
+let crosswalkText; 
+let trafficText; 
 let interface; 
+
 let img; 
 let img1; 
 let img2; 
@@ -7,10 +12,48 @@ let img3;
 let img4; 
 let img5; 
 let img6; 
+
 let img7; 
 let img8; 
 let img9; 
+let img10; 
+let img11; 
+let img12; 
+let img13; 
+let img14; 
+let img15; 
+
+let img16; 
+let img17; 
+let img18; 
+let img19; 
+let img20; 
+
+let img21; 
+let img22; 
+let img23; 
+let img24; 
+let img25; 
+let img26; 
+let img27; 
+let img28; 
+let img29; 
+
+let img30; 
+
+let img31; 
+let img32; 
+let img33; 
+let img34; 
+let img35; 
+let img36; 
+let img37; 
+
 let skipButton; 
+let allImages = [];
+let currentImages = []; 
+let currentText; 
+
 let sortingDone = false; 
 let sq = 130; 
 let move = sq + 5; 
@@ -18,36 +61,87 @@ let canvas;
 
 async function setup() {
     interface = await loadImage('assets/interface.png')
-    bicycletext = await loadImage('assets/biycletext.png')
-    img1 = await loadImage('assets/bicycle.jpg')
-    img2 = await loadImage('assets/bicycle2.jpg')
-    img3 = await loadImage('assets/bus.jpg')
-    img4 = await loadImage('assets/bus2.jpg')
-    img5 = await loadImage('assets/bus3.jpg')
-    img6 = await loadImage('assets/bus4.jpg')
-    img7 = await loadImage('assets/bus5.jpg')
-    img8 = await loadImage('assets/chimney.jpg')
-    img9 = await loadImage('assets/chimney2.jpg')
+    bicycleText = await loadImage('assets/biycletext.png')
+    chimneyText = await loadImage('assets/chimneytext.png')
+    busText = await loadImage('assets/bustext.png')
+    crosswalkText = await loadImage('assets/crosswalktext.png')
+    trafficText = await loadImage('assets/trafficlighttext.png')
+
+    img1 = await loadImage('assets/bicycle1.png')
+    img2 = await loadImage('assets/bicycle2.png')
+    img3 = await loadImage('assets/bicycle3.png')
+    img4 = await loadImage('assets/bicycle4.png')
+    img5 = await loadImage('assets/bicycle5.png')
+    img6 = await loadImage('assets/bicycle6.png')
+
+    img7 = await loadImage('assets/bus1.png')
+    img8 = await loadImage('assets/bus2.png')
+    img9 = await loadImage('assets/bus3.png')
+    img10 = await loadImage('assets/bus4.png')
+    img11 = await loadImage('assets/bus5.png')
+    img12 = await loadImage('assets/bus6.png')
+    img13 = await loadImage('assets/bus7.png')
+    img14 = await loadImage('assets/bus8.png')
+    img15 = await loadImage('assets/bus9.png')
+    
+    img16 = await loadImage('assets/chimney1.png')
+    img17 = await loadImage('assets/chimney2.png')
+    img18 = await loadImage('assets/chimney3.png')
+    img19 = await loadImage('assets/chimney4.png')
+    img20 = await loadImage('assets/chimney5.png')
+
+    img21 = await loadImage('assets/cross1.png')
+    img22 = await loadImage('assets/cross2.png')
+    img23 = await loadImage('assets/cross3.png')
+    img24 = await loadImage('assets/cross4.png')
+    img25 = await loadImage('assets/cross5.png')
+    img26 = await loadImage('assets/cross6.png')
+    img27 = await loadImage('assets/cross7.png')
+    img28 = await loadImage('assets/cross8.png')
+    img29 = await loadImage('assets/cross9.png')
+
+    img30 = await loadImage('assets/glasses.png')
+
+    img31 = await loadImage('assets/traffic1.png')
+    img32 = await loadImage('assets/traffic2.png')
+    img33 = await loadImage('assets/traffic3.png')
+    img34 = await loadImage('assets/traffic4.png')
+    img35 = await loadImage('assets/traffic5.png')
+    img36 = await loadImage('assets/traffic6.png')
+    img37 = await loadImage('assets/traffic7.png')
+
     interface.resize(405, 0);
-    bicycletext.resize(405, 0);
+    bicycleText.resize(405, 0);
+    chimneyText.resize(405, 0); 
+    busText.resize(405, 0); 
+    crosswalkText.resize(405, 0); 
+    trafficText.resize(405, 0); 
+    currentText = bicycleText; 
 
     canvas = createCanvas(windowWidth, windowHeight);
-    // console.log(windowWidth, windowHeight);
-    canvas.position(0,0);
-    canvas.style('z-index', '0'); //https://www.youtube.com/watch?v=OIfEHD3KqCg
+    //console.log(windowWidth, windowHeight);
+    //canvas.position(0,0);
+    //canvas.style('z-index', '0'); //https://www.youtube.com/watch?v=OIfEHD3KqCg
 
     skipButton = createButton('SKIP'); 
     skipButton.size(104, 49);
     skipButton.position(windowWidth / 2 + 100, height / 2 + 240); //manually matched 
-    skipButton.style('z-index', '-1');
-    skipButton.mousePressed();
+    //skipButton.style('z-index', '-1');
+    skipButton.style('opacity', '0');
+    skipButton.style('background', 'transparent'); 
+    skipButton.style('border', 'none');
+    skipButton.style('cursor', 'pointer');
+    skipButton.mousePressed(skipImage);
+
+    allImages = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21, img22, img23, img24, img25, img26, img27, img28, img29, img30, img31, img32, img33, img34, img35, img36, img37];
+    chooseImages(); 
 }
 
 function draw() {
     background(255); 
 
     if(!sortingDone) {
-        let images = [img1, img2, img3, img4, img5, img6, img7, img8, img9];
+        let images = currentImages;
         
         for(let i = 0; i < images.length; i++) {
             img = images[i];
@@ -79,21 +173,21 @@ function draw() {
     }
 
     imageMode(CENTER); 
-    image(bicycletext, width / 2, height / 2 - 2 * move);
+    image(currentText, width / 2, height / 2 - 2 * move);
     image(interface, width / 2, height / 2 + move + sq);
-    image(img1, width / 2, height / 2, sq, sq); //center 
-    image(img2, width / 2, height / 2 + move, sq, sq); //center bottom 
-    image(img3, width / 2, height / 2 - move, sq, sq); //center top 
-    image(img4, width / 2 - move, height / 2, sq, sq); //right center 
-    image(img5, width / 2 - move, height / 2 - move, sq, sq); //right top
-    image(img6, width / 2 - move, height / 2 + move, sq, sq); //right bottom
-    image(img7, width / 2 + move, height / 2, sq, sq); //left center 
-    image(img8, width / 2 + move, height / 2 - move, sq, sq); //left top
-    image(img9, width / 2 + move, height / 2 + move, sq, sq); //left bottom
+    image(currentImages[0], width / 2, height / 2, sq, sq); //center 
+    image(currentImages[1], width / 2, height / 2 + move, sq, sq); //center bottom 
+    image(currentImages[2], width / 2, height / 2 - move, sq, sq); //center top 
+    image(currentImages[3], width / 2 - move, height / 2, sq, sq); //right center 
+    image(currentImages[4], width / 2 - move, height / 2 - move, sq, sq); //right top
+    image(currentImages[5], width / 2 - move, height / 2 + move, sq, sq); //right bottom
+    image(currentImages[6], width / 2 + move, height / 2, sq, sq); //left center 
+    image(currentImages[7], width / 2 + move, height / 2 - move, sq, sq); //left top
+    image(currentImages[8], width / 2 + move, height / 2 + move, sq, sq); //left bottom
 } 
 
 function sortColumn(x) {
-    let threshold = random(0,30);
+    let threshold = random(0, 50);
     let y = 0; 
     while (y < img.height) {
         while(y < img.height) {
@@ -151,7 +245,7 @@ function sortColumn(x) {
 }
 
 function sortRow(y) {
-    let threshold = random(0,30);
+    let threshold = random(0, 30);
     let x = 0; 
     while (x < img.width) {
         while(x < img.width) {
@@ -206,4 +300,17 @@ function sortRow(y) {
         }
     }
 
+}
+
+function skipImage() {
+    chooseImages(); 
+    sortingDone = false; 
+
+    let textOptions = [bicycleText, chimneyText, crosswalkText, busText, trafficText]; 
+    currentText = random(textOptions); 
+}
+
+function chooseImages() {
+    let shuffled = shuffle(allImages); //https://p5js.org/reference/p5/shuffle/
+    currentImages = shuffled.slice(0, 9); 
 }
