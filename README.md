@@ -179,9 +179,9 @@ to:
 
 "launchArgs": "--enable-manager --fp32-vae --force-fp32",
 
-<img height="200" alt="" src="./assets/7_5.png">
+<img height="400" alt="" src="./assets/7_5.png">
 
-Exploring Lora. 
+Exploring Lora. I decided not to experiment too much with Lora; I am just grateful it worked. 
 
 ## Day 8 (2026/07/09)
 
@@ -257,6 +257,27 @@ This is just the first draft and general outline code for the image distortion I
 
 ## Day 10 (2026/07/14)
 
+<img height="300" alt="" src="./assets/10.png"> <img height="300" alt="" src="./assets/10_2.png"> <img height="300" alt="" src="./assets/10_3.jpeg">
+
+Final interface set up, started documentation organize in the middle of coding 
+
+
+I spent the day combining the two codes from yesterday. Nothing too exciting. 
+
 ## Day 11 (2026/07/15)
+
+Functionality 
+
+- Why do “I” want to bridge quantum computing and my work 
+- Crip theory and post humanism 
+    - Quantum mechanism and post humanism 
+        - Blurring difference between 0 and I 
+        - Blurring boundaries between humans and non humans 
+- Creative technologist; not only improving models and how can models better interact with humans 
+- Wind chimes installed nicely looks like quantum computer 
+
+
+- Creative computing, best to study at CCI: can self study quantum computing (don’t need to go to physics department) 
+    - Open to combining different fields with art 
 
 ## Day 12 (2026/07/16)
