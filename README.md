@@ -63,9 +63,18 @@ Lab 1: In class, I started by figuring out how to load different images so the u
 
 Lab 1: I edited the image files so they would look more like a collage when put together. Keeping the drawing tool and random location feature, I added a randomSize(); feature to make the picture more interesting. The bubbles were inspired by content I found online: a code Google Gemini summarized. However, there were many functions that I didn’t know of, including class, constructor, and float. The code is included in my Day 4 folder named bubble_from_online. Again, I didn’t want to work with an AI-produced code that I cannot follow along with; I did, however, learn about an opacity option in fill(); 
 
-<img height="270" alt="" src="./assets/4_6.png" /> <img height="270" alt="" src="./assets/4_5.png" />
+<img height="250" alt="" src="./assets/4_6.png" /> <img height="250" alt="" src="./assets/4_5.png" />
 
-Lab 2: 
+Lab 2: I chose to do option 2 (interactive sketch to customize video capture) and 3 (artwork using interface elements). I ended up combining the two; above are the images of option 2 and option 2 & 3 respectively. 
+
+I wanted to recreate a ["purikura"](https://www.google.com/search?sa=X&sca_esv=b95d1611b6ab2c1b&sxsrf=APpeQnuUKlUyq9JiQPtbJTvZTG5K3jPUfw:1784120675792&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYQMcE-5Z1cZx9qhIV-bv5qjakEQzQ2rQETVWf0onHvHvWqp9gBH5IlpsFB5n0W78lW8YYRUjJEqggSF7Xnv4rwPcbAjWFuBUAyCF_uInLgltHODWRC4Mc5Ce1uQyJsCQxLUCQZhN7pYHRCVWDvNrkbIWG3dQQ&q=purikura&ved=2ahUKEwj2tPe439SVAxUndUEAHXryAZAQtKgLegQIFxAB&biw=1728&bih=992&dpr=2), which means "print club", an interactive photo booth very popular in Japan. The purikura is famous for its filter and decoration features allowing users to draw on their photos, ornate with stickers, and switch frames. Furthermore, purikura is infamous
+
+Story: purikura inspired photo decorating interface; hard to complete and decorate “fully” or to one’s satisfaction because of time limit; made it annoying to decorate to allude to the real experience of taking Japanese print club photos 
+
+Combination of options 2 and 3. Tried to incorporate option 1 too (annoying [drawing] tool)
+
+Difficulty: making it intentionally annoying than just badly coded 
+
 
 ## Day 5 (2026/07/06)
 
