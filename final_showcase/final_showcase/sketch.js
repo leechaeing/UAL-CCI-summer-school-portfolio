@@ -10,7 +10,11 @@ let img6;
 let img7; 
 let img8; 
 let img9; 
+let skipButton; 
 let sortingDone = false; 
+let sq = 130; 
+let move = sq + 5; 
+let canvas; 
 
 async function setup() {
     interface = await loadImage('assets/interface.png')
@@ -27,7 +31,16 @@ async function setup() {
     interface.resize(405, 0);
     bicycletext.resize(405, 0);
 
-    createCanvas(windowWidth, windowHeight);
+    canvas = createCanvas(windowWidth, windowHeight);
+    // console.log(windowWidth, windowHeight);
+    canvas.position(0,0);
+    canvas.style('z-index', '0'); //https://www.youtube.com/watch?v=OIfEHD3KqCg
+
+    skipButton = createButton('SKIP'); 
+    skipButton.size(104, 49);
+    skipButton.position(windowWidth / 2 + 100, height / 2 + 240); //manually matched 
+    skipButton.style('z-index', '-1');
+    skipButton.mousePressed();
 }
 
 function draw() {
@@ -65,8 +78,6 @@ function draw() {
         sortingDone = true; 
     }
 
-    let sq = 130; 
-    let move = sq + 5; 
     imageMode(CENTER); 
     image(bicycletext, width / 2, height / 2 - 2 * move);
     image(interface, width / 2, height / 2 + move + sq);
