@@ -175,6 +175,8 @@ to:
 
 "launchArgs": "--enable-manager --fp32-vae --force-fp32",
 
+<img height="200" alt="" src="./assets/7_5.png">
+
 ## Day 8 (2026/07/09)
 
 Lab 1: [CAPTCHA](http://www.captcha.net/) (Completely Automated Public Turing test to tell Computers and Humans Apart)

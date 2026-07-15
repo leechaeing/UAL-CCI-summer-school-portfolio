@@ -3,6 +3,7 @@ let bgSelect;
 let slider;
 let heartButton;
 let starButton;
+let decoButton; 
 
 let background1;
 let background2; 
@@ -29,6 +30,7 @@ let earPosY;
 //reference to button_demo
 let heartCounter = 0; 
 let starCounter = 0; 
+let decoCounter = 0; 
 
 let currentSticker = null; 
 let placedStickers = [];
@@ -82,6 +84,11 @@ async function setup() {
   starButton.position(300, 500);
   starButton.mousePressed(cycleStar);
   describe('A button for star stickers to decorate.');
+
+  decoButton = createButton('more!');
+  decoButton.position(300, 600);
+  decoButton.mousePressed(cycleDeco);
+  describe('A button for ui elements to decorate.');
 }
 
 function draw() {
@@ -108,7 +115,9 @@ function draw() {
   filter(BLUR, blurriness);
 
   for (let s of placedStickers) {
-    image(s.img, s.x, s.y, 80, 80);
+    if(s.img) {
+      image(s.img, s.x, s.y, 80, 80);
+    }
   }
 
   if(earTimer > 0) {
@@ -127,7 +136,25 @@ function draw() {
 }
 
 function mousePressed() {
-  if(currentSticker) {
+  let canvasPos = drawingContext.canvas.getBoundingClientRect();
+  let pageX = canvasPos.left + mouseX;
+  let pageY = canvasPos.top + mouseY; 
+
+  if(currentSticker === 'button') {
+    let b = createButton('button');
+    b.position(mouseX, mouseY); 
+    placedStickers.push(b);
+  } else if(currentSticker === 'slider') {
+    let s = createSlider(0, 10, 5); 
+    s.position(mouseX, mouseY); 
+    placedStickers.push(s); 
+  }else if(currentSticker === 'select') {
+    let sel = createSelect(); 
+    sel.option('select');
+    sel.option('Hello World');
+    sel.position(mouseX, mouseY); 
+    placedStickers.push(sel); 
+  }else if(currentSticker) {
     placedStickers.push({ img: currentSticker, x: mouseX, y: mouseY});
   }
 }
@@ -144,6 +171,13 @@ function cycleStar() {
   let index = starCounter % starOptions.length; 
   currentSticker = starOptions[index];
   starCounter += 1; 
+}
+
+function cycleDeco() {
+  let decoOptions =  ['button', 'slider', 'select'];
+  let index = decoCounter % decoOptions.length;
+  currentSticker = decoOptions[index];
+  decoCounter += 1;
 }
 
 //button - ok
