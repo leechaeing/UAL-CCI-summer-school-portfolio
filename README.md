@@ -183,6 +183,8 @@ to:
 
 Exploring Lora. I decided not to experiment too much with Lora; I am just grateful it worked. 
 
+<img height="300" alt="" src="./assets/7_6.png"> <img height="300" alt="" src="./assets/7_7.png">
+
 ## Day 8 (2026/07/09)
 
 Lab 1: [CAPTCHA](http://www.captcha.net/) (Completely Automated Public Turing test to tell Computers and Humans Apart)
