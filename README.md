@@ -268,10 +268,13 @@ I spent the day combining the two codes from yesterday. Nothing too exciting.
 
 ## Day 11 (2026/07/15)
 
-<img height="250" alt="" src="./assets/11.png"> <img height="250" alt="" src="./assets/11_2.png"> 
-<img height="350" alt="" src="./assets/11_3.png"> <<img height="350" alt="" src="./assets/11_6.png"> 
-<img height="250" alt="" src="./assets/11_4.png"> <img height="250" alt="" src="./assets/11_5.png"> 
-<img height="350" alt="" src="./assets/11_7.png"> <img height="350" alt="" src="./assets/11_8.png">
+<img height="250" alt="" src="./assets/11.png"> <img height="250" alt="" src="./assets/11_2.png">
+
+
+<img height="260" alt="" src="./assets/11_4.png"> <img height="260" alt="" src="./assets/11_3.png"> 
+<img height="260" alt="" src="./assets/11_5.png"> <img height="260" alt="" src="./assets/11_6.png"> 
+
+<img height="400" alt="" src="./assets/11_7.png"> <img height="400" alt="" src="./assets/11_8.png">
 
 Functionality 
 
