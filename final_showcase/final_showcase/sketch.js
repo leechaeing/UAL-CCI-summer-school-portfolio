@@ -6,7 +6,7 @@ let trafficText;
 let interface; 
 
 let img; 
-let img1; 
+let img1; //is there a better way to organize this honestly...
 let img2; 
 let img3; 
 let img4; 
@@ -53,8 +53,11 @@ let skipButton;
 let allImages = [];
 let currentImages = []; 
 let currentText; 
+let refreshButton; 
+let textImage; 
+let showTextImage = false; 
 
-let gridPositions = [];
+let gridPositions = []; // NOT my original code; help from AI 
 
 let sortingDone = false; 
 let sq = 130; 
@@ -68,6 +71,7 @@ async function setup() {
     busText = await loadImage('assets/bustext.png')
     crosswalkText = await loadImage('assets/crosswalktext.png')
     trafficText = await loadImage('assets/trafficlighttext.png')
+    textImage = await loadImage('assets/description.png')
 
     img1 = await loadImage('assets/bicycle1.png')
     img2 = await loadImage('assets/bicycle2.png')
@@ -118,6 +122,7 @@ async function setup() {
     busText.resize(405, 0); 
     crosswalkText.resize(405, 0); 
     trafficText.resize(405, 0); 
+    textImage.resize(550, 0);
     currentText = bicycleText; 
 
     canvas = createCanvas(windowWidth, windowHeight);
@@ -128,19 +133,27 @@ async function setup() {
     skipButton = createButton('SKIP'); 
     skipButton.size(104, 49);
     skipButton.position(windowWidth / 2 + 100, height / 2 + 240); //manually matched 
-    //skipButton.style('z-index', '-1');
-    skipButton.style('opacity', '0');
+    //skipButton.style('z-index', '-1'); // initially found out from AI suggestion; https://editor.p5js.org/allison.parrish/sketches/SyjX6kglg
+    skipButton.style('opacity', '0'); // https://p5js.org/reference/p5.Element/style/
     skipButton.style('background', 'transparent'); 
     skipButton.style('border', 'none');
     skipButton.style('cursor', 'pointer');
     skipButton.mousePressed(skipImage);
 
-    img30.filter(BLUR, 10);
+    refreshButton = createButton('RESET');
+    refreshButton.size(50, 50); 
+    refreshButton.position(windowWidth / 2 - 200, height / 2 + 240);
+    refreshButton.style('opacity', '0');
+    refreshButton.style('border', 'none');
+    refreshButton.style('cursor', 'pointer');
+    refreshButton.mousePressed(showText); 
+
+    img30.filter(BLUR, 10); // this image was for fun but it being glasses with red, green, yellow lights was so obvious when I wanted it to look like glasses 
 
     allImages = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21, img22, img23, img24, img25, img26, img27, img28, img29, img30, img31, img32, img33, img34, img35, img36, img37];
     chooseImages(); 
 
-    gridPositions = [
+    gridPositions = [ // AI told me about this code I didn't come up with it 
         { x: width / 2, y: height / 2 },                //center 
         { x: width / 2, y: height / 2 + move },         //center bottom 
         { x: width / 2, y: height / 2 - move },         //center top 
@@ -156,7 +169,7 @@ async function setup() {
 function draw() {
     background(255); 
 
-    if(!sortingDone) {
+    if(!sortingDone) { // ! means not :)) is what I found out? unless I'm wrong but the code works
         let images = currentImages;
         
         for(let i = 0; i < images.length; i++) {
@@ -191,7 +204,7 @@ function draw() {
 
     imageMode(CENTER); 
     image(currentText, width / 2, height / 2 - 2 * move);
-    image(interface, width / 2, height / 2 + move + sq);
+    image(interface, width / 2, height / 2 + move + sq); // these intially looked really messy with me trying to match the interface to my Illustrations graphic but I cleaned it up with global variables BUT it still looks messy 
     image(currentImages[0], width / 2, height / 2, sq, sq); //center 
     image(currentImages[1], width / 2, height / 2 + move, sq, sq); //center bottom 
     image(currentImages[2], width / 2, height / 2 - move, sq, sq); //center top 
@@ -201,10 +214,15 @@ function draw() {
     image(currentImages[6], width / 2 + move, height / 2, sq, sq); //left center 
     image(currentImages[7], width / 2 + move, height / 2 - move, sq, sq); //left top
     image(currentImages[8], width / 2 + move, height / 2 + move, sq, sq); //left bottom
+
+    if(showTextImage == true) { // added in last minute..,,,
+        imageMode(CENTER); 
+        image(textImage, width / 2, height / 2);
+    }
 } 
 
-function sortColumn(x) {
-    let threshold = map(sin(x * 0.15), -1, 1, 0, 30);
+function sortColumn(x) { // https://www.youtube.com/watch?v=nNQk9AMYYGk
+    let threshold = map(sin(x * 0.15), -1, 1, 0, 30); // tried out something fun(?) that we learned couple sessions before 
     let y = 0; 
     while (y < img.height) {
         while(y < img.height) {
@@ -214,7 +232,7 @@ function sortColumn(x) {
             let b = img.pixels[index + 2];
             let hu = hue(color(r, g, b)); //changed from original code's brightness to hue
 
-            if(hu > threshold) { //bn < threshold to switch to dark mode
+            if(hu > threshold) { // < threshold to switch to dark mode
                 break; 
             }
             y++; 
@@ -222,13 +240,13 @@ function sortColumn(x) {
         let startY = y; 
 
         while(y < img.height) {
-            let index = (x + y*img.width) * 4; //four because each pixel has four values r,g,b,alpha
+            let index = (x + y*img.width) * 4; // four because each pixel has four values r,g,b,alpha
             let r = img.pixels[index + 0];
             let g = img.pixels[index + 1];
             let b = img.pixels[index + 2];
             let hu = hue(color(r, g, b));
 
-            if(hu <= threshold) { //bn >= threshold for dark mode
+            if(hu <= threshold) { // >= threshold for dark mode
                 break; 
             }
             y++; 
@@ -245,7 +263,7 @@ function sortColumn(x) {
                 sortingArray.push(color(r, g, b));
             }
 
-            sortingArray.sort((a, b) => hue(b) - hue(a)); //sorts from light to dark
+            sortingArray.sort((a, b) => hue(b) - hue(a)); // sorts from light to dark
             
             for(let i = startY; i <= endY; i++) {
                 let index = (x + i*img.width) *4;
@@ -266,13 +284,13 @@ function sortRow(y) {
     let x = 0; 
     while (x < img.width) {
         while(x < img.width) {
-            let index = (x + y*img.width) * 4; //four because each pixel has four values r,g,b,alpha
+            let index = (x + y*img.width) * 4; // four because each pixel has four values r,g,b,alpha
             let r = img.pixels[index + 0];
             let g = img.pixels[index + 1];
             let b = img.pixels[index + 2];
             let hu = hue(color(r, g, b));
 
-            if(hu > threshold) { //bn < threshold to switch to dark mode
+            if(hu > threshold) { // < threshold to switch to dark mode
                 break; 
             }
             x++; 
@@ -280,13 +298,13 @@ function sortRow(y) {
         let startX = x; 
 
         while(x < img.width) {
-            let index = (x + y*img.width) * 4; //four because each pixel has four values r,g,b,alpha
+            let index = (x + y*img.width) * 4; // four because each pixel has four values r,g,b,alpha
             let r = img.pixels[index + 0];
             let g = img.pixels[index + 1];
             let b = img.pixels[index + 2];
             let hu = hue(color(r, g, b));
 
-            if(hu <= threshold) { //bn >= threshold for dark mode
+            if(hu <= threshold) { // >= threshold for dark mode
                 break; 
             }
             x++; 
@@ -303,7 +321,7 @@ function sortRow(y) {
                 sortingArray.push(color(r, g, b));
             }
 
-            sortingArray.sort((a, b) => hue(a) - hue(b)); //sorts from  dark to light here 
+            sortingArray.sort((a, b) => hue(a) - hue(b)); // sorts from  dark to light here 
             
             for(let i = startX; i <= endX; i++) {
                 let index = (x + i*img.width) *4;
@@ -319,9 +337,9 @@ function sortRow(y) {
 
 }
 
-function sortImage(imageToSort) {
+function sortImage(imageToSort) { 
     img = imageToSort; 
-    img.resize(140, 0);
+    img.resize(140, 0); 
     img.loadPixels(); 
 
     for(let x = 0; x < img.width; x++) {
@@ -372,4 +390,12 @@ function newImage(index) {
     currentImages[index] = newImg; 
     sortImage(currentImages[index]);
 
+}
+
+function showText() {
+    if(showTextImage == false) {
+        showTextImage = true; 
+    }else {
+        showTextImage = false; 
+    }
 }
