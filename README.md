@@ -268,7 +268,10 @@ I spent the day combining the two codes from yesterday. Nothing too exciting.
 
 ## Day 11 (2026/07/15)
 
-<img height="300" alt="" src="./assets/11.png"> <img height="300" alt="" src="./assets/11_2.png"> <img height="300" alt="" src="./assets/11_3.png"> <<img height="300" alt="" src="./assets/11_6.png"> <img height="300" alt="" src="./assets/11_4.png"> <img height="300" alt="" src="./assets/11_5.png"> <img height="300" alt="" src="./assets/11_7.png"> <img height="300" alt="" src="./assets/11_8.png">
+<img height="250" alt="" src="./assets/11.png"> <img height="250" alt="" src="./assets/11_2.png"> 
+<img height="350" alt="" src="./assets/11_3.png"> <<img height="350" alt="" src="./assets/11_6.png"> 
+<img height="250" alt="" src="./assets/11_4.png"> <img height="250" alt="" src="./assets/11_5.png"> 
+<img height="350" alt="" src="./assets/11_7.png"> <img height="350" alt="" src="./assets/11_8.png">
 
 Functionality 
 
@@ -283,5 +286,15 @@ Functionality
 
 - Creative computing, best to study at CCI: can self study quantum computing (don’t need to go to physics department) 
     - Open to combining different fields with art 
+
+https://teachablemachine.withgoogle.com/models/uIqrTEqW0/ 
+
+I produced images with comfy ui and trained a model based on it
+
+Learned about shuffle from AI suggestion 
+Im just sewing together bits of code from various projects 
+Feel like my code is very messy and long and unorganized 
+Got a lot of ai help for functionality: lots of images and functions going on at once; 
+
 
 ## Day 12 (2026/07/16)

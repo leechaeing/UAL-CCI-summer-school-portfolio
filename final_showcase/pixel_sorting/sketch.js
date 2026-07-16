@@ -24,7 +24,7 @@ function draw() {
             sortRow(y);
         }
 
-        for(let x = 0; x < img.width; x++) {
+        for(let x = 0; x < img.width; x++) { // to run multiple times to make things more interesting
             sortColumn(x);
         }
 
@@ -33,7 +33,7 @@ function draw() {
         }
 
         img.updatePixels();
-        //img.filter(POSTERIZE, 4);
+        //img.filter(POSTERIZE, 4); // trying out different things 
         // img.filter(BLUR, 3);
         // img.filter(INVERT);
         image(img, 0, 0);
