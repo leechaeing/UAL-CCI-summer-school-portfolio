@@ -227,7 +227,7 @@ Above are sketchbook entries of brainstorming and drawing thumbsnails. I was lar
 2. Text field and mouse interaction so that users can designate the object for image recognition
 3. A CAPTCHA with image pixels scattering with mouse movement 
 
-<img height="180" alt="" src="./assets/8.png" /> <img height="180" alt="" src="./assets/8_2.png" /> <img height="180" alt="" src="./assets/8_3.png" /> <img height="180" alt="" src="./assets/8_4.png" /> <img height="350" alt="" src="./assets/8_5.png" /> 
+<img height="180" alt="" src="./assets/8.png"> <img height="180" alt="" src="./assets/8_2.png"> <img height="180" alt="" src="./assets/8_3.png"> <img height="180" alt="" src="./assets/8_4.png"> <img height="350" alt="" src="./assets/8_5.png"> 
 
 Lab 2: I am not too sure if I completed this task correctly due to my absence. I duplicated and used the example in the class GitHub to code online in p5.js.0.9.0
 
@@ -267,6 +267,8 @@ Final interface set up, started documentation organize in the middle of coding
 I spent the day combining the two codes from yesterday. Nothing too exciting. 
 
 ## Day 11 (2026/07/15)
+
+<img height="300" alt="" src="./assets/11.png"> <img height="300" alt="" src="./assets/11_2.png"> <img height="300" alt="" src="./assets/11_3.png"> <<img height="300" alt="" src="./assets/11_6.png"> <img height="300" alt="" src="./assets/11_4.png"> <img height="300" alt="" src="./assets/11_5.png"> <img height="300" alt="" src="./assets/11_7.png"> <img height="300" alt="" src="./assets/11_8.png">
 
 Functionality 
 
