@@ -268,16 +268,19 @@ I spent the day combining the two codes from yesterday. Nothing too exciting.
 
 ## Day 11 (2026/07/15)
 
-<img height="250" alt="" src="./assets/11.png"> <img height="250" alt="" src="./assets/11_2.png">
+<img height="450" alt="" src="./assets/11_7.png"> <img height="450" alt="" src="./assets/11_8.png">
+
+I worked on the functionality aspect today such as getting the buttons to work and editing the pixel sorting code to better suit my images. I managed to piece together most parts from previous demos and codes I have done; however, I ended up asking an AI for help to come up with a code allowing users to click on and change the nine images. The codes related to gridPositions are not my original code. I also learned about making interface elements transparent using style and also about z-index during the process. The z-index was an AI suggestion that I ended up not using. In addition, I altered little bits of the pixel sorting code. I experimented with hues and mapping with sine or cosine to sort the pixels in different ways. 
+
+<img height="230" alt="" src="./assets/11.png"> <img height="230" alt="" src="./assets/11_2.png">
 
 
-<img height="260" alt="" src="./assets/11_4.png"> <img height="260" alt="" src="./assets/11_3.png"> 
-<img height="260" alt="" src="./assets/11_5.png"> <img height="260" alt="" src="./assets/11_6.png"> 
+<img height="280" alt="" src="./assets/11_4.png"> <img height="280" alt="" src="./assets/11_3.png"> 
+<img height="280" alt="" src="./assets/11_5.png"> <img height="280" alt="" src="./assets/11_6.png"> 
 
-<img height="400" alt="" src="./assets/11_7.png"> <img height="400" alt="" src="./assets/11_8.png">
+Furthermore, I wanted to experiment more with AI and machine learning to communicate further with computers. I explored ComfyUI to produce my own images instead of using those off of Pixabay. Using the images produced, I trained [a model](https://teachablemachine.withgoogle.com/models/uIqrTEqW0/) in Teachable Machines. Explanation of this process is elaborated in my Final Showcase Documentation! 
 
-Functionality 
-
+Notes from Astryd's presentation: 
 - Why do “I” want to bridge quantum computing and my work 
 - Crip theory and post humanism 
     - Quantum mechanism and post humanism 
@@ -286,18 +289,10 @@ Functionality
 - Creative technologist; not only improving models and how can models better interact with humans 
 - Wind chimes installed nicely looks like quantum computer 
 
-
 - Creative computing, best to study at CCI: can self study quantum computing (don’t need to go to physics department) 
     - Open to combining different fields with art 
 
-https://teachablemachine.withgoogle.com/models/uIqrTEqW0/ 
+## Day 12 (2026/07/16)
 
-I produced images with comfy ui and trained a model based on it
-
-Learned about shuffle from AI suggestion 
 Im just sewing together bits of code from various projects 
 Feel like my code is very messy and long and unorganized 
-Got a lot of ai help for functionality: lots of images and functions going on at once; 
-
-
-## Day 12 (2026/07/16)
