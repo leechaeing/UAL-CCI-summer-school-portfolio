@@ -272,8 +272,7 @@ I spent the day combining the two codes from yesterday. Nothing too exciting.
 
 I worked on the functionality aspect today such as getting the buttons to work and editing the pixel sorting code to better suit my images. I managed to piece together most parts from previous demos and codes I have done; however, I ended up asking an AI for help to come up with a code allowing users to click on and change the nine images. The codes related to gridPositions are not my original code. I also learned about making interface elements transparent using style and also about z-index during the process. The z-index was an AI suggestion that I ended up not using. In addition, I altered little bits of the pixel sorting code. I experimented with hues and mapping with sine or cosine to sort the pixels in different ways. 
 
-<img height="230" alt="" src="./assets/11.png"> <img height="230" alt="" src="./assets/11_2.png">
-
+<img height="200" alt="" src="./assets/11.png"> <img height="200" alt="" src="./assets/11_2.png">
 
 <img height="280" alt="" src="./assets/11_4.png"> <img height="280" alt="" src="./assets/11_3.png"> 
 <img height="280" alt="" src="./assets/11_5.png"> <img height="280" alt="" src="./assets/11_6.png"> 
