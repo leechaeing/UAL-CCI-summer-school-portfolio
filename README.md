@@ -261,9 +261,9 @@ This is just the first draft and general outline code for the image distortion I
 
 <img height="300" alt="" src="./assets/10.png"> <img height="300" alt="" src="./assets/10_2.png"> <img height="300" alt="" src="./assets/10_3.jpeg">
 
-Final interface set up, started documentation organize in the middle of coding 
+I spent the day combining the two codes from yesterday. Nothing too exciting. I also began the final project documentation: I wasn't too sure how we were supposed to submit this, so I made a PDF slideshow. Because I wasn't feeling too good from my sickness and the heat, I honestly didn't want to work. So, I came up with a process of alternating between my Reflections, Documentation, and the Final to keep myself fresh. When I got sick of doing one thing, I did another, and so on. Therefore, I did not make drastic progress on my final: just combining code and making things look good.
 
-I spent the day combining the two codes from yesterday. Nothing too exciting. 
+A difficulty I faced was recreating the graphic I made in Adobe Illustrator in Visual Studio Code. I had very specific measurements and ratios I wanted. You can see me struggling in the sketchbook entry above.
 
 ## Day 11 (2026/07/15)
 
