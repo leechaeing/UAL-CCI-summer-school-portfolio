@@ -263,21 +263,20 @@ This is just the first draft and general outline code for the image distortion I
 
 Final interface set up, started documentation organize in the middle of coding 
 
-
 I spent the day combining the two codes from yesterday. Nothing too exciting. 
 
 ## Day 11 (2026/07/15)
 
 <img height="450" alt="" src="./assets/11_7.png"> <img height="450" alt="" src="./assets/11_8.png">
 
-I worked on the functionality aspect today such as getting the buttons to work and editing the pixel sorting code to better suit my images. I managed to piece together most parts from previous demos and codes I have done; however, I ended up asking an AI for help to come up with a code allowing users to click on and change the nine images. The codes related to gridPositions are not my original code. I also learned about making interface elements transparent using style and also about z-index during the process. The z-index was an AI suggestion that I ended up not using. In addition, I altered little bits of the pixel sorting code. I experimented with hues and mapping with sine or cosine to sort the pixels in different ways. 
+I worked on the functionality aspect today, such as getting the buttons to work and editing the pixel sorting code to better suit my images. I managed to piece together most parts from previous demos and codes I have done; however, I ended up asking an AI for help to come up with code allowing users to click on and change the nine images. The code related to gridPositions is not my original code. I also learned about making interface elements transparent using style and about z-index during the process. The z-index was an AI suggestion that I ended up not using. In addition, I altered little bits of the pixel sorting code. I experimented with hues and mapping with sine or cosine to sort the pixels in different ways. 
 
 <img height="200" alt="" src="./assets/11.png"> <img height="200" alt="" src="./assets/11_2.png">
 
 <img height="280" alt="" src="./assets/11_4.png"> <img height="280" alt="" src="./assets/11_3.png"> 
 <img height="280" alt="" src="./assets/11_5.png"> <img height="280" alt="" src="./assets/11_6.png"> 
 
-Furthermore, I wanted to experiment more with AI and machine learning to communicate further with computers. I explored ComfyUI to produce my own images instead of using those off of Pixabay. Using the images produced, I trained [a model](https://teachablemachine.withgoogle.com/models/uIqrTEqW0/) in Teachable Machines. Explanation of this process is elaborated in my Final Showcase Documentation! 
+Furthermore, I wanted to experiment more with AI and machine learning to communicate further with computers. I explored ComfyUI to produce my own images instead of using those from Pixabay. Using the images produced, I trained [a model](https://teachablemachine.withgoogle.com/models/uIqrTEqW0/) in Teachable Machine. Explanation of this process is elaborated in my Final Showcase Documentation! 
 
 Notes from Astryd's presentation: 
 - Why do “I” want to bridge quantum computing and my work 
@@ -293,7 +292,10 @@ Notes from Astryd's presentation:
 
 ## Day 12 (2026/07/16)
 
-<img heigh="200" alt="" src="./assets/12.jpeg"> <img heigh="200" alt="" src="./assets/12_2.jpeg">
+<img height="300" alt="" src="./assets/12.jpeg"> <img height="300" alt="" src="./assets/12_2.jpeg">
 
-Im just sewing together bits of code from various projects 
-Feel like my code is very messy and long and unorganized 
+After consulting with Marysia, I added in a last-minute feature to show a description for the audience to better understand the work. It wasn't too hard because I just had to copy most of the code I used for my SKIP button. Throughout the classes and while coding this final project, I found myself sewing together bits of code from various projects and adding in functions I found and learned online. I started from just bits of coding knowledge from so many different experiences: learning Processing from a workshop, using C++ for Arduino works, and figuring out Python with a YouTube tutorial for classwork from freshman year. Even after this summer semester, my codes are still very messy and unorganized. Honestly, I like it this way (for now). My codes may be a pain for others to look at; however, I appreciate the process of defining every single variable and manually calculating coordinates. It feels like I am speaking to someone called the computer in a language I just learned called p5.js
+
+I was quite surprised that other students came in to see our work. The room was difficult to find for me even when I was actively looking for it, so I didn't think anyone would realize we were there. I really enjoyed sharing and socializing with my colleagues: I am very shy, so I didn't have the opportunity to talk to a lot of them. I kind of hoped to converse more with those from the conference, so I was very happy to talk to those who came by.
+
+I took this class because I wanted to experience a different country and study in Europe: many of my tutors advised me to consider Europe when I was having doubts about my studies. My department head is giving credits for a major requirement back in my college for this class, and I am kind of glad I got to take this class. I feel that this diverse experience is very special to me.
