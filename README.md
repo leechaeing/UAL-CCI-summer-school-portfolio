@@ -10,7 +10,7 @@ Based on my one-day experience of Processing, from a workshop conducted by artis
 
 I found a [rotateY();](https://beta.p5js.org/reference/p5/quad/) code that inspired me to create a kinetic portrait. I tend to switch up my makeup and style every day; thus, different people have told me that I look like different people. For example, friend A might say I look like celebrity X, while friend B might say I look like celebrity Y. I found it interesting that people realize various things within one face (me).
 
-My portrait attempts to display this by having the pupils, eyes, nose, lips, and blush continuously change in colors and/or sizes, utilizing the random(); function. My two beauty marks remain static within the quick-changing environment, hinting that despite the changing features, this is still my face.
+My portrait attempts to display this by having the pupils, eyes, nose, lips, and blush continuously change in color and/or size, utilizing the random(); function. My two beauty marks remain static within the quick-changing environment, hinting that despite the changing features, this is still my face.
 
 The biggest challenges I faced included finding the right shape for the hair and figuring out the grid for my eyebrows. I wasn't familiar with the arc(); function; thus, I had some trouble translating my hair onto a 2D canvas. I would have preferred to have a changing hairstyle. In addition, the quad(); code I used to draw my eyebrows was also quite strenuous to use, having to set four parameters for each vertex of the polygon. I still prefer analog methods of working through mathematics: using a paper and pen to draw and write out equations. Hence, understanding the p5.js coordinate system took some time.
 
@@ -88,7 +88,7 @@ A series of creative applications of AI. A brief review of my exploration, corre
 - [Teachable Machine](https://teachablemachine.withgoogle.com/): That I can make a personalized model excites me, as I have seen recent young artists using image detectors. For my experiment, though, I found it intriguing that the model fails to guess number two the most when I had fed it more images of two.
 - [Even Stranger Things](https://evenstranger.pw/): Nothing much happened except classification and the same filter or graphic being placed on top of the images I uploaded.
 
-A thought has always bothered me since I declared Art and Computation as my major. Whatever I make, it is already on the internet and usually in a better form. I am a beginner, so it makes sense: everyone starts with color charts and shading polygons. Because we have been practicing basic p5.js, making projects without much story or intent, I haven't been a fan of what I have made so far. This project, however, made me feel like I was making something more meaningful as I could add more context behind my code.
+A thought has always bothered me since I declared Art and Computation as my major. Whatever I make, it is already on the internet and usually in a better form. I am a beginner, so it makes sense: everyone starts with color charts and shading polygons. Because we have been practicing basic p5.js, making projects without much story or intent, I haven't been a fan of what I have made so far. This project, however, made me feel like I was making something more meaningful, as I could add more context behind my code.
 
 <img height="150" alt="" src="./assets/5_9.png" /> <img height="150" alt="" src="./assets/5_10.png" /> 
 [Online Editor](https://editor.p5js.org/leechaeing/sketches/v_rZYQ75U)
@@ -97,11 +97,11 @@ Noonchi is a Korean word that reflects much culture, making it hard to translate
 
 Some difficulties I had were coding the blinking and mouth-opening features. I asked an AI tool how I should go about this, and it suggested using the ears to help calculate whether the eyes were closed by frame. Unfortunately, I could not make a code that worked. The code itself didn't seem to have much issue; rather, the API seemed to identify my eyes as nearly closed even when they weren't. I tried to utilize the mouth so that tears would be added when you open your mouth. Honestly, I was discouraged by the difficulty and the fact that adding tears by opening your mouth did not feel convincing.
 
-A thought I had since the first session: What would be a difference between motion graphics and generative art? In what situation would you choose one method over the other?
+A thought I had since the first session: What would be the difference between motion graphics and generative art? In what situation would you choose one method over the other?
 
 ## Day 6 (2026/07/07)
 
-Listening to the lecture I had a question in mind: there are different ethics for different positions like user ethics, designer ethics, etc. But, can we “teach” computer ethics? Would there be computer ethics (ethics that computers must follow)?
+Listening to the lecture, I had a question in mind: there are different ethics for different positions, like user ethics, designer ethics, etc. But can we “teach” computer ethics? Would there be computer ethics (ethics that computers must follow)?
 
 <img height="150" alt="" src="./assets/6.png" /> <img height="150" alt="" src="./assets/6_2.png" /> <img height="150" alt="" src="./assets/6_3.png" /> <img height="150" alt="" src="./assets/6_4.png" /> <img height="150" alt="" src="./assets/6_5.png" /> 
 
@@ -152,9 +152,9 @@ e.g., Partner with ThroughLine for self-harm and mental health situations
 -  Lack of environmental issues
 
 <img height="340" alt="" src="./assets/6_8.png" /> <img height="340" alt="" src="./assets/6_10.png" /> 
-OpenAI ChatGPT based on GPT-5.5 and Anthropic Claude Sonnet 5 (conversation model) used to generate the images, respectively.  
+OpenAI ChatGPT, based on GPT-5.5, and Anthropic Claude Sonnet 5 (conversation model) were used to generate the images, respectively. 
 
-I used the same prompts to see what various AI models would give me. I thought it would be interesting to compare and contrast how different AI tools process differently. I have only used OpenAI's ChatGPT and Anthropic's Claude (MidJourney in Discord as well), but I didn't want to use other AIs that I wasn't familiar with. Even for everyday tasks, I rarely use image generation features. The image generation features sparked much conversation at my school, and just the process of waiting for an image to be created stresses me for some reason. Personally, I prefer the diagram Claude generated. I have never been a fan of realism; thus, whether it'd be a human or computer producing a realistic image, it is not my favorite. I purposefully wrote "college dorm" to hint at the atmosphere, but I don't think it was communicated effectively. The image feels too cozy, warm, and home-like. By college dorm I meant something more cold and fleeting. The furnitures do not belong to me and I have little control over interior. I wonder what ChatGPT took in by "college dorm". 
+I used the same prompts to see what various AI models would give me. I thought it would be interesting to compare and contrast how different AI tools process differently. I have only used OpenAI's ChatGPT and Anthropic's Claude (MidJourney in Discord as well), but I didn't want to use other AIs that I wasn't familiar with. Even for everyday tasks, I rarely use image generation features. The image generation features sparked much conversation at my school, and just the process of waiting for an image to be created stresses me for some reason. Personally, I prefer the diagram Claude generated. I have never been a fan of realism; thus, whether it'd be a human or a computer producing a realistic image, it is not my favorite. I purposefully wrote "college dorm" to hint at the atmosphere, but I don't think it was communicated effectively. The image feels too cozy, warm, and home-like. By college dorm, I meant something more cold and fleeting. The furniture does not belong to me, and I have little control over the interior. I wonder what ChatGPT took in by "college dorm".
 
 ## Day 7 (2026/07/08)
 
@@ -222,7 +222,7 @@ I wanted to make an interactive project based on CAPTCHA. I spent some time rese
 
 <img height="320" alt="" src="./assets/8_6.jpeg"> <img height="320" alt="" src="./assets/8_7.jpeg">
 
-Above are sketchbook entries of brainstorming and drawing thumbsnails. I was largely inspired by the lectures regarding how computers "see" and process images. I came up with three possible projects: 
+Above are sketchbook entries of brainstorming and drawing thumbnails. I was largely inspired by the lectures regarding how computers "see" and process images. I came up with three possible projects:
 1. A series of CAPTCHAs with images getting more and more distorted as you go
 2. Text field and mouse interaction so that users can designate the object for image recognition
 3. A CAPTCHA with image pixels scattering with mouse movement 
@@ -261,7 +261,7 @@ This is just the first draft and general outline code for the image distortion I
 
 <img height="300" alt="" src="./assets/10.png"> <img height="300" alt="" src="./assets/10_2.png"> <img height="300" alt="" src="./assets/10_3.jpeg">
 
-I spent the day combining the two codes from yesterday. Nothing too exciting. I also began the final project documentation: I wasn't too sure how we were supposed to submit this, so I made a PDF slideshow. Because I wasn't feeling too good from my sickness and the heat, I honestly didn't want to work. So, I came up with a process of alternating between my Reflections, Documentation, and the Final to keep myself fresh. When I got sick of doing one thing, I did another, and so on. Therefore, I did not make drastic progress on my final: just combining code and making things look good.
+I spent the day combining the two codes from yesterday. Nothing too exciting. I also began the final project documentation. I wasn't sure how we were supposed to submit this, so I created a PDF slideshow. Because I wasn't feeling too good from my sickness and the heat, I honestly didn't want to work. So, I came up with a process of alternating between my Reflections, Documentation, and the Final to keep myself fresh. When I got sick of doing one thing, I did another, and so on. Therefore, I did not make drastic progress on my final: just combining code and making things look good.
 
 A difficulty I faced was recreating the graphic I made in Adobe Illustrator in Visual Studio Code. I had very specific measurements and ratios I wanted. You can see me struggling in the sketchbook entry above.
 
@@ -292,7 +292,7 @@ Notes from Astryd's presentation:
 
 ## Day 12 (2026/07/16)
 
-<img height="300" alt="" src="./assets/12.jpeg"> <img height="300" alt="" src="./assets/12_2.jpeg">
+<img height="330" alt="" src="./assets/12.jpeg"> <img height="330" alt="" src="./assets/12_2.jpeg">
 
 After consulting with Marysia, I added in a last-minute feature to show a description for the audience to better understand the work. It wasn't too hard because I just had to copy most of the code I used for my SKIP button. Throughout the classes and while coding this final project, I found myself sewing together bits of code from various projects and adding in functions I found and learned online. I started from just bits of coding knowledge from so many different experiences: learning Processing from a workshop, using C++ for Arduino works, and figuring out Python with a YouTube tutorial for classwork from freshman year. Even after this summer semester, my codes are still very messy and unorganized. Honestly, I like it this way (for now). My codes may be a pain for others to look at; however, I appreciate the process of defining every single variable and manually calculating coordinates. It feels like I am speaking to someone called the computer in a language I just learned called p5.js
 
