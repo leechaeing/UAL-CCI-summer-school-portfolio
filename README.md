@@ -293,5 +293,7 @@ Notes from Astryd's presentation:
 
 ## Day 12 (2026/07/16)
 
+<img heigh="200" alt="" src="./assets/12.jpeg"> <img heigh="200" alt="" src="./assets/12_2.jpeg">
+
 Im just sewing together bits of code from various projects 
 Feel like my code is very messy and long and unorganized 

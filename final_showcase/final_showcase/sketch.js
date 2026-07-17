@@ -367,7 +367,7 @@ function chooseImages() {
 }
 
 function mousePressed() {
-    for(let i = 0; i <gridPositions.length; i++) {
+    for(let i = 0; i <gridPositions.length; i++) { // NOT my original code
         let pos = gridPositions[i];
         let left = pos.x - sq / 2; 
         let right = pos.x + sq / 2; 
